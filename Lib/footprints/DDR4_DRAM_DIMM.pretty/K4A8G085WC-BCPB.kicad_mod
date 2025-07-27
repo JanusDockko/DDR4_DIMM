@@ -1,4 +1,4 @@
-(footprint "K4A8G045WC-BCPB"
+(footprint "K4A8G085WC-BCPB"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "K4A8G045WC-BCPB"
+	(property "Value" "K4A8G085WC-BCPB"
 		(at 0 -7 0)
 		(unlocked yes)
 		(layer "F.Fab")
