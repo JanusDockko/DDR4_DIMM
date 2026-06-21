@@ -21,7 +21,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "c2dc28bb-1646-4c78-bcb4-fd13d6b2a414")
-		(property "Sheetname" "Untitled Sheet"
+		(property "Sheetname" "DRAM_1to4"
 			(at 31.75 32.3084 0)
 			(effects
 				(font
@@ -30,7 +30,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
+		(property "Sheetfile" "DRAM_1to4.kicad_sch"
 			(at 31.75 64.0846 0)
 			(effects
 				(font
