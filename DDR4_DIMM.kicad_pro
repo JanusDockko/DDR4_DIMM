@@ -746,7 +746,7 @@
       {
         "filename": "DDR4_DIMM.kicad_sch",
         "name": "DDR4_DIMM",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "2162f80d-5bbc-406a-8824-9611d78b7103"
       }
     ],
     "used_designators": "",
@@ -755,11 +755,19 @@
   "sheets": [
     [
       "2162f80d-5bbc-406a-8824-9611d78b7103",
-      "Root"
+      "DDR4_DIMM"
     ],
     [
       "c2dc28bb-1646-4c78-bcb4-fd13d6b2a414",
       "DRAM_1to4"
+    ],
+    [
+      "6efc1bd6-04be-4131-af6a-de12b5fe06f0",
+      "DIMM_Connector"
+    ],
+    [
+      "ccdf86f8-96cb-4271-8f2a-c62d85127d5b",
+      "Power_Magnagement"
     ]
   ],
   "text_variables": {},
