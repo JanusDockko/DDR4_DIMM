@@ -6,8 +6,54 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 91.44 33.02)
-		(size 55.88 30.48)
+		(at 81.28 87.63)
+		(size 53.34 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "06e143c6-4a82-4cd9-9a02-f6e67eb284f2")
+		(property "Sheetname" "DRAM_5-8"
+			(at 81.28 86.9184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DRAM_1to4.kicad_sch"
+			(at 81.28 118.6946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DDR4_DIMM"
+				(path "/2162f80d-5bbc-406a-8824-9611d78b7103"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 20.32 33.02)
+		(size 53.34 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +68,7 @@
 		)
 		(uuid "6efc1bd6-04be-4131-af6a-de12b5fe06f0")
 		(property "Sheetname" "DIMM_Connector"
-			(at 91.44 32.3084 0)
+			(at 20.32 32.3084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33,53 +79,7 @@
 			)
 		)
 		(property "Sheetfile" "DIMM_Connector_sch.kicad_sch"
-			(at 91.44 64.0846 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "DDR4_DIMM"
-				(path "/2162f80d-5bbc-406a-8824-9611d78b7103"
-					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 31.75 33.02)
-		(size 53.34 30.48)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "c2dc28bb-1646-4c78-bcb4-fd13d6b2a414")
-		(property "Sheetname" "DRAM_1to4"
-			(at 31.75 32.3084 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "DRAM_1to4.kicad_sch"
-			(at 31.75 64.0846 0)
+			(at 20.32 64.0846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -98,8 +98,100 @@
 		)
 	)
 	(sheet
-		(at 154.94 33.02)
+		(at 20.32 87.63)
+		(size 53.34 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c2dc28bb-1646-4c78-bcb4-fd13d6b2a414")
+		(property "Sheetname" "DRAM_1-4"
+			(at 20.32 86.9184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DRAM_1to4.kicad_sch"
+			(at 20.32 118.6946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DDR4_DIMM"
+				(path "/2162f80d-5bbc-406a-8824-9611d78b7103"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 144.78 31.75)
 		(size 55.88 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "cb7293af-232b-4c7f-85bc-3b7b1ae107bd")
+		(property "Sheetname" "SPD_EEPROM"
+			(at 144.78 31.0384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SPD_EEPROM.kicad_sch"
+			(at 144.78 62.8146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DDR4_DIMM"
+				(path "/2162f80d-5bbc-406a-8824-9611d78b7103"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 81.28 33.02)
+		(size 53.34 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -114,7 +206,7 @@
 		)
 		(uuid "ccdf86f8-96cb-4271-8f2a-c62d85127d5b")
 		(property "Sheetname" "Power_Magnagement"
-			(at 154.94 32.3084 0)
+			(at 81.28 32.3084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -125,7 +217,7 @@
 			)
 		)
 		(property "Sheetfile" "Power_Magnagement_sch.kicad_sch"
-			(at 154.94 64.0846 0)
+			(at 81.28 64.0846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -138,7 +230,7 @@
 		(instances
 			(project "DDR4_DIMM"
 				(path "/2162f80d-5bbc-406a-8824-9611d78b7103"
-					(page "4")
+					(page "5")
 				)
 			)
 		)

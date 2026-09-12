@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "DDR4_DIMM") (type "KiCad") (uri "${KIPRJMOD}/Lib/symbols/DDR4_DRAM_DIM.kicad_sym") (options "") (descr ""))
+)

@@ -691,12 +691,102 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Part Number",
+          "name": "Arrow Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Price/Stock",
+          "name": "Arrow Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Case/Package",
+          "name": "Case/Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer Part Number",
+          "name": "Manufacturer Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier Part Number-1",
+          "name": "Supplier Part Number-1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier-1",
+          "name": "Supplier-1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Alternate Part Number-1",
+          "name": "Alternate Part Number-1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -758,16 +848,24 @@
       "DDR4_DIMM"
     ],
     [
-      "c2dc28bb-1646-4c78-bcb4-fd13d6b2a414",
-      "DRAM_1to4"
-    ],
-    [
       "6efc1bd6-04be-4131-af6a-de12b5fe06f0",
       "DIMM_Connector"
     ],
     [
+      "c2dc28bb-1646-4c78-bcb4-fd13d6b2a414",
+      "DRAM_1-4"
+    ],
+    [
+      "06e143c6-4a82-4cd9-9a02-f6e67eb284f2",
+      "DRAM_5-8"
+    ],
+    [
       "ccdf86f8-96cb-4271-8f2a-c62d85127d5b",
       "Power_Magnagement"
+    ],
+    [
+      "cb7293af-232b-4c7f-85bc-3b7b1ae107bd",
+      "SPD_EEPROM"
     ]
   ],
   "text_variables": {},
