@@ -18151,7 +18151,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0871d40c-6a68-4417-96ec-d14923d28094")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 80.518 13.97 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19071,7 +19071,7 @@
 		(instances
 			(project "DDR4_DIMM"
 				(path "/2162f80d-5bbc-406a-8824-9611d78b7103/6efc1bd6-04be-4131-af6a-de12b5fe06f0"
-					(reference "U2")
+					(reference "U1")
 					(unit 18)
 				)
 			)
@@ -19088,7 +19088,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "157e5672-9ef4-419f-9441-d6c2b1eba1df")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR03"
 			(at 26.67 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -19148,7 +19148,7 @@
 		(instances
 			(project "DDR4_DIMM"
 				(path "/2162f80d-5bbc-406a-8824-9611d78b7103/6efc1bd6-04be-4131-af6a-de12b5fe06f0"
-					(reference "#PWR04")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -19165,7 +19165,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1c4973a9-2d90-4210-987a-91611eac0a0e")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR05"
 			(at 46.99 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -19225,7 +19225,7 @@
 		(instances
 			(project "DDR4_DIMM"
 				(path "/2162f80d-5bbc-406a-8824-9611d78b7103/6efc1bd6-04be-4131-af6a-de12b5fe06f0"
-					(reference "#PWR06")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -19243,7 +19243,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "223dc033-c166-45e3-ad4a-534237f356b0")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 138.43 131.9557 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20164,7 +20164,7 @@
 		(instances
 			(project "DDR4_DIMM"
 				(path "/2162f80d-5bbc-406a-8824-9611d78b7103/6efc1bd6-04be-4131-af6a-de12b5fe06f0"
-					(reference "U2")
+					(reference "U1")
 					(unit 12)
 				)
 			)
@@ -20181,7 +20181,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2494a675-a9b4-4530-bee0-5e06a1630053")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 51.816 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21102,7 +21102,7 @@
 		(instances
 			(project "DDR4_DIMM"
 				(path "/2162f80d-5bbc-406a-8824-9611d78b7103/6efc1bd6-04be-4131-af6a-de12b5fe06f0"
-					(reference "U2")
+					(reference "U1")
 					(unit 20)
 				)
 			)
@@ -21120,7 +21120,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28b942c1-be85-46d6-8ef2-2404e525566a")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 200.66 77.3457 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22041,7 +22041,7 @@
 		(instances
 			(project "DDR4_DIMM"
 				(path "/2162f80d-5bbc-406a-8824-9611d78b7103/6efc1bd6-04be-4131-af6a-de12b5fe06f0"
-					(reference "U2")
+					(reference "U1")
 					(unit 4)
 				)
 			)
@@ -22059,7 +22059,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2eb5cfee-e8e5-4a9d-8a0d-513a643bf57b")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 52.07 52.0727 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22980,7 +22980,7 @@
 		(instances
 			(project "DDR4_DIMM"
 				(path "/2162f80d-5bbc-406a-8824-9611d78b7103/6efc1bd6-04be-4131-af6a-de12b5fe06f0"
-					(reference "U2")
+					(reference "U1")
 					(unit 9)
 				)
 			)
@@ -22998,7 +22998,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "355c85c5-4ff2-4caf-b6dc-0f0087d7384e")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 199.39 88.9027 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23919,7 +23919,7 @@
 		(instances
 			(project "DDR4_DIMM"
 				(path "/2162f80d-5bbc-406a-8824-9611d78b7103/6efc1bd6-04be-4131-af6a-de12b5fe06f0"
-					(reference "U2")
+					(reference "U1")
 					(unit 5)
 				)
 			)
@@ -23936,7 +23936,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4017a8f6-682d-41bc-b5ac-7cd0216f58c3")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR01"
 			(at 26.67 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -23996,7 +23996,7 @@
 		(instances
 			(project "DDR4_DIMM"
 				(path "/2162f80d-5bbc-406a-8824-9611d78b7103/6efc1bd6-04be-4131-af6a-de12b5fe06f0"
-					(reference "#PWR02")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -24014,7 +24014,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4074a1a0-1e0a-4faa-a1ae-81edc6db4290")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 199.39 139.5757 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24935,7 +24935,7 @@
 		(instances
 			(project "DDR4_DIMM"
 				(path "/2162f80d-5bbc-406a-8824-9611d78b7103/6efc1bd6-04be-4131-af6a-de12b5fe06f0"
-					(reference "U2")
+					(reference "U1")
 					(unit 19)
 				)
 			)
@@ -24953,7 +24953,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "442e69b6-34b4-43f5-979b-546879c351ee")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 201.93 44.5797 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25874,7 +25874,7 @@
 		(instances
 			(project "DDR4_DIMM"
 				(path "/2162f80d-5bbc-406a-8824-9611d78b7103/6efc1bd6-04be-4131-af6a-de12b5fe06f0"
-					(reference "U2")
+					(reference "U1")
 					(unit 2)
 				)
 			)
@@ -25892,7 +25892,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44da1773-8a74-414e-be95-f2c8e510af75")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 138.43 168.7857 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26813,7 +26813,7 @@
 		(instances
 			(project "DDR4_DIMM"
 				(path "/2162f80d-5bbc-406a-8824-9611d78b7103/6efc1bd6-04be-4131-af6a-de12b5fe06f0"
-					(reference "U2")
+					(reference "U1")
 					(unit 7)
 				)
 			)
@@ -26830,7 +26830,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4cbe6025-6ed9-4ccd-9d7e-2402798c9a54")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR02"
 			(at 26.67 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -26890,7 +26890,7 @@
 		(instances
 			(project "DDR4_DIMM"
 				(path "/2162f80d-5bbc-406a-8824-9611d78b7103/6efc1bd6-04be-4131-af6a-de12b5fe06f0"
-					(reference "#PWR03")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -26908,7 +26908,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6921049e-1316-4829-a23b-5d1f01078efd")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 238.76 97.6657 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27829,7 +27829,7 @@
 		(instances
 			(project "DDR4_DIMM"
 				(path "/2162f80d-5bbc-406a-8824-9611d78b7103/6efc1bd6-04be-4131-af6a-de12b5fe06f0"
-					(reference "U2")
+					(reference "U1")
 					(unit 15)
 				)
 			)
@@ -27848,7 +27848,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7740f318-7257-436d-928d-5c7d390acf28")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 129.54 15.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28768,7 +28768,7 @@
 		(instances
 			(project "DDR4_DIMM"
 				(path "/2162f80d-5bbc-406a-8824-9611d78b7103/6efc1bd6-04be-4131-af6a-de12b5fe06f0"
-					(reference "U2")
+					(reference "U1")
 					(unit 11)
 				)
 			)
@@ -28786,7 +28786,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7963ea03-6fef-498b-9c9d-12640615b662")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 248.92 36.9597 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29707,7 +29707,7 @@
 		(instances
 			(project "DDR4_DIMM"
 				(path "/2162f80d-5bbc-406a-8824-9611d78b7103/6efc1bd6-04be-4131-af6a-de12b5fe06f0"
-					(reference "U2")
+					(reference "U1")
 					(unit 17)
 				)
 			)
@@ -29725,7 +29725,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b327c5d-970c-4bab-9820-bcf43cdeb992")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 52.07 135.8927 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30646,7 +30646,7 @@
 		(instances
 			(project "DDR4_DIMM"
 				(path "/2162f80d-5bbc-406a-8824-9611d78b7103/6efc1bd6-04be-4131-af6a-de12b5fe06f0"
-					(reference "U2")
+					(reference "U1")
 					(unit 22)
 				)
 			)
@@ -30663,7 +30663,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8f50223b-d432-4b1c-81b7-4dce25854e91")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 50.546 100.076 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31584,7 +31584,7 @@
 		(instances
 			(project "DDR4_DIMM"
 				(path "/2162f80d-5bbc-406a-8824-9611d78b7103/6efc1bd6-04be-4131-af6a-de12b5fe06f0"
-					(reference "U2")
+					(reference "U1")
 					(unit 13)
 				)
 			)
@@ -31602,7 +31602,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a55840d2-84b8-41a5-90d3-43b729a5775d")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 60.96 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32522,7 +32522,7 @@
 		(instances
 			(project "DDR4_DIMM"
 				(path "/2162f80d-5bbc-406a-8824-9611d78b7103/6efc1bd6-04be-4131-af6a-de12b5fe06f0"
-					(reference "U2")
+					(reference "U1")
 					(unit 8)
 				)
 			)
@@ -32540,7 +32540,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a72ac0c5-491c-4172-954c-a6e516177024")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 238.76 137.2897 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33461,7 +33461,7 @@
 		(instances
 			(project "DDR4_DIMM"
 				(path "/2162f80d-5bbc-406a-8824-9611d78b7103/6efc1bd6-04be-4131-af6a-de12b5fe06f0"
-					(reference "U2")
+					(reference "U1")
 					(unit 14)
 				)
 			)
@@ -33479,7 +33479,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a89102da-3d9f-489c-91f1-64f08d5b41b4")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR06"
 			(at 63.5 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -33539,7 +33539,7 @@
 		(instances
 			(project "DDR4_DIMM"
 				(path "/2162f80d-5bbc-406a-8824-9611d78b7103/6efc1bd6-04be-4131-af6a-de12b5fe06f0"
-					(reference "#PWR01")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -33557,7 +33557,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba55ff6b-b769-434d-96c4-c98acdaec48d")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 270.51 102.7457 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34478,7 +34478,7 @@
 		(instances
 			(project "DDR4_DIMM"
 				(path "/2162f80d-5bbc-406a-8824-9611d78b7103/6efc1bd6-04be-4131-af6a-de12b5fe06f0"
-					(reference "U2")
+					(reference "U1")
 					(unit 23)
 				)
 			)
@@ -34496,7 +34496,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c743df1f-1ac5-426d-b262-fd3e76604786")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 248.92 77.4727 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35417,7 +35417,7 @@
 		(instances
 			(project "DDR4_DIMM"
 				(path "/2162f80d-5bbc-406a-8824-9611d78b7103/6efc1bd6-04be-4131-af6a-de12b5fe06f0"
-					(reference "U2")
+					(reference "U1")
 					(unit 6)
 				)
 			)
@@ -35435,7 +35435,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2e66ed7-e28b-4165-a1b6-c7f94ef26e71")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 199.39 100.7137 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36356,7 +36356,7 @@
 		(instances
 			(project "DDR4_DIMM"
 				(path "/2162f80d-5bbc-406a-8824-9611d78b7103/6efc1bd6-04be-4131-af6a-de12b5fe06f0"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -36374,7 +36374,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e879e962-7e06-459b-be3c-e6b6a909f9b8")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 199.39 118.3667 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37295,7 +37295,7 @@
 		(instances
 			(project "DDR4_DIMM"
 				(path "/2162f80d-5bbc-406a-8824-9611d78b7103/6efc1bd6-04be-4131-af6a-de12b5fe06f0"
-					(reference "U2")
+					(reference "U1")
 					(unit 3)
 				)
 			)
@@ -37313,7 +37313,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0bc7d9d-7221-4de4-aca9-96d97c667e4f")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 248.92 55.7557 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38234,7 +38234,7 @@
 		(instances
 			(project "DDR4_DIMM"
 				(path "/2162f80d-5bbc-406a-8824-9611d78b7103/6efc1bd6-04be-4131-af6a-de12b5fe06f0"
-					(reference "U2")
+					(reference "U1")
 					(unit 21)
 				)
 			)
@@ -38251,7 +38251,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f39f636d-b835-49aa-98ae-89e6ae410160")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 248.92 24.892 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39172,7 +39172,7 @@
 		(instances
 			(project "DDR4_DIMM"
 				(path "/2162f80d-5bbc-406a-8824-9611d78b7103/6efc1bd6-04be-4131-af6a-de12b5fe06f0"
-					(reference "U2")
+					(reference "U1")
 					(unit 16)
 				)
 			)
@@ -39190,7 +39190,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f824a85b-7a92-4964-9c8d-0d1a6d5a1dc1")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 270.51 139.5757 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40111,7 +40111,7 @@
 		(instances
 			(project "DDR4_DIMM"
 				(path "/2162f80d-5bbc-406a-8824-9611d78b7103/6efc1bd6-04be-4131-af6a-de12b5fe06f0"
-					(reference "U2")
+					(reference "U1")
 					(unit 10)
 				)
 			)
@@ -40128,7 +40128,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fd94c59d-1136-4913-b9cd-7d686623fe48")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR04"
 			(at 27.94 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -40188,7 +40188,7 @@
 		(instances
 			(project "DDR4_DIMM"
 				(path "/2162f80d-5bbc-406a-8824-9611d78b7103/6efc1bd6-04be-4131-af6a-de12b5fe06f0"
-					(reference "#PWR05")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)

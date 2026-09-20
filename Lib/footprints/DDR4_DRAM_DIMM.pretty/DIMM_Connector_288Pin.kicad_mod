@@ -3,12 +3,37 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
+	(property "Reference" "U"
+		(at -0.005 0.71 0)
+		(unlocked yes)
+		(layer "F.CrtYd")
+		(uuid "6dda00c0-3470-489f-a071-3b5efe64a52f")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "DIMM_Connector_288Pin"
+		(at 0.325 0.15 0)
+		(unlocked yes)
+		(layer "F.CrtYd")
+		(hide yes)
+		(uuid "b8e54444-98df-4ccc-ba53-48a4400bb0c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a070d373-c759-4aa3-80da-da9049bb864f")
+		(uuid "df669145-5dcf-4491-babe-84b9c94292c2")
 		(effects
 			(font
 				(size 1 1)
@@ -21,31 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8467bbc6-2137-4249-acc9-84f794082a9e")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Reference" "U"
-		(at 0.325 -1.35 0)
-		(unlocked yes)
-		(layer "F.CrtYd")
-		(uuid "1cb539b4-43cb-4dfe-a1fa-cee8794f0016")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-		)
-	)
-	(property "Value" "DIMM_Connector_288Pin"
-		(at 0.325 0.15 0)
-		(unlocked yes)
-		(layer "F.CrtYd")
-		(uuid "74f96315-67e0-4a5a-9a45-78143fe0e7e2")
+		(uuid "2eff3c52-3f2e-475f-a2a6-c5e2818df422")
 		(effects
 			(font
 				(size 1 1)
@@ -63,7 +64,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "00607e7d-7f73-49d3-ba57-e159ec8d2fd3")
+		(uuid "65369e7e-8d86-4ef3-9f9f-cea068d572d1")
 	)
 	(fp_line
 		(start -69.675 15.2)
@@ -73,7 +74,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "f2189c7b-fc96-4044-b4ee-df108a1490bb")
+		(uuid "f860eb9d-3c00-4d08-9f5b-0b1b136fdf21")
 	)
 	(fp_line
 		(start -69.675 15.2)
@@ -83,7 +84,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "1a1b5ec3-b65a-4d1b-b0ed-372460143c8a")
+		(uuid "efdd5502-8f76-4970-855d-2a51dc9b0de9")
 	)
 	(fp_line
 		(start -69.675 21.2)
@@ -93,7 +94,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "80fd56fa-21f9-46c4-a0b9-23bab6c27dce")
+		(uuid "f2327810-657d-44a9-aed6-b7f3685a2ef1")
 	)
 	(fp_line
 		(start -69.675 21.2)
@@ -103,7 +104,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "ccc5edcc-4567-4973-a773-40a6fccd243c")
+		(uuid "34a8bcc0-927e-4e00-8a9c-24b5347507fd")
 	)
 	(fp_line
 		(start -69.675 32.21)
@@ -113,7 +114,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "b6ff06fb-2ce9-4460-a918-149f4ab2620e")
+		(uuid "716b5d92-3551-47e5-bedc-0e4433dc715b")
 	)
 	(fp_line
 		(start -67.525 18.2)
@@ -123,7 +124,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "a3c236b2-4c40-4033-9061-c4dc9ac8cd1e")
+		(uuid "e299ef90-dd72-4f70-8cff-68075db60a48")
 	)
 	(fp_line
 		(start -67.525 24.2)
@@ -133,7 +134,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "f3693803-b77a-466d-9059-0c80b38ad4a7")
+		(uuid "156cdaae-03bf-43d9-91b9-06b944513894")
 	)
 	(fp_line
 		(start -67.175 24.2)
@@ -143,7 +144,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "6c536b6e-a000-4461-aa60-7d3c5a3204ec")
+		(uuid "809b5583-92bf-4c76-9f1f-f4b69e469a83")
 	)
 	(fp_line
 		(start -67.175 24.2)
@@ -153,7 +154,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "ef691013-a4c6-4ee1-8558-2c04bab567aa")
+		(uuid "e1b3a508-069c-449d-b292-3e53aab1989d")
 	)
 	(fp_line
 		(start -66.875 15.85)
@@ -163,7 +164,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "236f1d1d-0419-4a51-82f3-b573c31f0af5")
+		(uuid "5439e02c-07c4-4c2d-95ec-733fc3ec5da9")
 	)
 	(fp_line
 		(start -66.875 21.85)
@@ -173,7 +174,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "462d0711-dea9-43ff-a8a5-cb598dec97d6")
+		(uuid "830c150e-b0db-4165-8277-fe3ee7b796b7")
 	)
 	(fp_line
 		(start -37.425 32.225)
@@ -183,7 +184,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "1b067e3e-70ac-4f7a-b162-279844e4d97a")
+		(uuid "2d10bf19-8ca2-4dfd-89de-141d2e2a1a8e")
 	)
 	(fp_line
 		(start -27.22 32.725)
@@ -193,7 +194,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "5537288f-4ce6-4f01-a063-634b2948746d")
+		(uuid "3fd17e62-e039-41a8-92ec-571c1e6ed56d")
 	)
 	(fp_line
 		(start 2.3 32.725)
@@ -203,7 +204,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "92c79e83-5bd0-4c57-aeba-97e7e5e44b58")
+		(uuid "ce578c7d-97f2-4530-bced-61a4dd34d8ff")
 	)
 	(fp_line
 		(start 2.3 32.725)
@@ -213,7 +214,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "263412de-7a8c-4ae6-bf58-e7ad94173d22")
+		(uuid "2c46aa7b-b0a3-40e5-a115-5f6fe660f6b3")
 	)
 	(fp_line
 		(start 2.6 29.225)
@@ -223,7 +224,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "b1f6fbc6-2886-47c7-94ea-83fb19c0177b")
+		(uuid "d90596a0-0784-46ea-a16a-919bcc68c19e")
 	)
 	(fp_line
 		(start 27.175 32.725)
@@ -233,7 +234,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "6ab6cab8-6686-4601-9e96-eb7ec370506e")
+		(uuid "68c54640-7fb5-45f6-b254-dd868bb07af3")
 	)
 	(fp_line
 		(start 37.375 32.225)
@@ -243,7 +244,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "ada038b9-d9c3-4c66-b23d-e4a10afb27a8")
+		(uuid "688afa33-5297-4599-af2d-5d8a7a4b6069")
 	)
 	(fp_line
 		(start 60.875 15.85)
@@ -253,7 +254,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "6d1f7fef-b25d-4b1c-8e01-3241e007aab4")
+		(uuid "9e396872-5e4c-402e-b26a-e20d16149d70")
 	)
 	(fp_line
 		(start 60.875 21.85)
@@ -263,7 +264,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "fe32766f-d52a-4b21-9d25-057b240e89c1")
+		(uuid "3969fecf-b020-4cc8-b616-7ef19b8a2c44")
 	)
 	(fp_line
 		(start 61.175 24.2)
@@ -273,7 +274,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "b1f9ad41-7db4-484e-888f-d3bc41c71f6f")
+		(uuid "21181b73-9584-499f-8fd9-b0ed9e424957")
 	)
 	(fp_line
 		(start 61.175 24.2)
@@ -283,7 +284,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "cdb59dfe-57e9-417e-9d97-1945cacedcbc")
+		(uuid "c843bfb9-93a0-4de6-8ff3-c8f645d3e94a")
 	)
 	(fp_line
 		(start 61.525 18.2)
@@ -293,7 +294,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "b3b16460-1ffe-4954-bc90-99c1cdc847db")
+		(uuid "a8924944-cebc-48f8-8dfd-65ee693bc4dc")
 	)
 	(fp_line
 		(start 61.525 24.2)
@@ -303,7 +304,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "2313d5bd-80f2-43b5-a51a-5d3a422f1aef")
+		(uuid "e4771a20-b696-4950-9d1e-e428ac7327d9")
 	)
 	(fp_line
 		(start 63.675 15.2)
@@ -313,7 +314,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "f98f257a-1411-432c-806e-e8eb82afd624")
+		(uuid "042bd062-14d6-44d6-a9f5-9c391e061df1")
 	)
 	(fp_line
 		(start 63.675 15.2)
@@ -323,7 +324,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "f16dccd1-88eb-4f2b-a58e-7b83e29038e7")
+		(uuid "e4958b3a-99b0-41f1-bcd0-d3de853e03b8")
 	)
 	(fp_line
 		(start 63.675 21.2)
@@ -333,7 +334,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "3cf66dda-f365-4846-be77-8273a9227e48")
+		(uuid "bd2c5679-db96-42cf-a8f5-1256cf134018")
 	)
 	(fp_line
 		(start 63.675 21.2)
@@ -343,7 +344,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "74668040-863d-4e52-86bf-01407c388959")
+		(uuid "7ab8c681-9407-40c9-81d8-b91e328fb051")
 	)
 	(fp_line
 		(start 63.675 32.225)
@@ -353,7 +354,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "5ea95654-7209-4d93-a680-fe48ca1874a6")
+		(uuid "54b74440-79d0-421b-922d-dfeb077bf85e")
 	)
 	(fp_line
 		(start 63.675 32.225)
@@ -363,7 +364,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "cc31511a-b44b-4fae-9ad5-db8ab1fcd586")
+		(uuid "2bec1e70-ef83-4016-b54d-7a4e62138d74")
 	)
 	(fp_arc
 		(start -67.525 15.2)
@@ -374,7 +375,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "b6475490-6752-4f15-a074-80e6b6b8ad54")
+		(uuid "43854814-80f5-46ef-887b-8b74d33ca910")
 	)
 	(fp_arc
 		(start -67.525 21.2)
@@ -385,7 +386,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "8ac201b2-0cbc-467e-875f-d7734b2d55c3")
+		(uuid "b9715377-739d-4e21-a8c6-365cc947cacb")
 	)
 	(fp_arc
 		(start -66.875 17.55)
@@ -396,7 +397,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "79b5d5b2-653d-48fd-9052-832cdcbc0775")
+		(uuid "c4d4172b-51d8-487d-a5d8-345e8bac5cbd")
 	)
 	(fp_arc
 		(start -66.875 23.55)
@@ -407,7 +408,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "bba17490-a7ed-4aad-89d9-42e566a0a6ca")
+		(uuid "b834d5fe-64b2-4b2b-aefd-a31a9ef9103c")
 	)
 	(fp_arc
 		(start 2.3 29.225)
@@ -418,7 +419,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "fb11d8b8-218d-4b86-a365-dc444d36bc5f")
+		(uuid "b56afd96-6cfe-437c-a2a1-79b7fa56f42a")
 	)
 	(fp_arc
 		(start 60.875 15.85)
@@ -429,7 +430,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "cd8bccc7-79da-4ad4-853d-7faad6ecc72a")
+		(uuid "8e8c7992-462a-4262-a271-79f75d4ab9b8")
 	)
 	(fp_arc
 		(start 60.875 21.85)
@@ -440,7 +441,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "4a9c3d5d-8094-4362-bd5d-41c030ed9d29")
+		(uuid "4655280b-838a-4bd9-961a-a3c4a332dc76")
 	)
 	(fp_arc
 		(start 61.525 18.2)
@@ -451,7 +452,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "5beeceab-0553-4e52-a49d-5cec7037d514")
+		(uuid "d390309d-3e96-44e4-a17a-611385608499")
 	)
 	(fp_arc
 		(start 61.525 24.2)
@@ -462,7 +463,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "db9dbacb-9093-4f9f-a479-0f1ef24ddd16")
+		(uuid "7fbba36f-be77-4e20-8084-480894c9bf5a")
 	)
 	(fp_line
 		(start -69.675 0.95)
@@ -472,7 +473,7 @@
 			(type default)
 		)
 		(layer "B.SilkS")
-		(uuid "2330fb6e-0b1c-470b-9fd8-52af09f3eff3")
+		(uuid "dbea4eac-d249-4361-991c-3450868d985b")
 	)
 	(fp_line
 		(start -69.675 15.2)
@@ -482,7 +483,7 @@
 			(type default)
 		)
 		(layer "B.SilkS")
-		(uuid "255576d0-8c2c-4966-bcb2-4b182a4b5177")
+		(uuid "dc8b95df-d9f4-4480-be02-8189f22f3adb")
 	)
 	(fp_line
 		(start -69.675 15.2)
@@ -492,7 +493,7 @@
 			(type default)
 		)
 		(layer "B.SilkS")
-		(uuid "eb9829f7-cbbe-462f-92e1-c67c8fec5ab6")
+		(uuid "55c5cdb2-ba9c-4e66-82db-377397ba5134")
 	)
 	(fp_line
 		(start -69.675 18.2)
@@ -502,7 +503,7 @@
 			(type default)
 		)
 		(layer "B.SilkS")
-		(uuid "0cf23fbd-f139-43c2-86c9-deca245bea8e")
+		(uuid "40355311-e6a8-443a-9f1b-2aaa9b37a7db")
 	)
 	(fp_line
 		(start -69.675 21.2)
@@ -512,7 +513,7 @@
 			(type default)
 		)
 		(layer "B.SilkS")
-		(uuid "1dd68762-a738-47eb-bfc5-9f29875a781d")
+		(uuid "7fafdc0d-6b97-4b1a-9e70-c01ccce27943")
 	)
 	(fp_line
 		(start -69.675 24.2)
@@ -522,7 +523,7 @@
 			(type default)
 		)
 		(layer "B.SilkS")
-		(uuid "1a0aa5b2-bcc7-4174-ad4f-76968a75b3d4")
+		(uuid "9eebb0ea-bdab-45ec-997b-aed1470af090")
 	)
 	(fp_line
 		(start -69.675 32.225)
@@ -532,7 +533,7 @@
 			(type default)
 		)
 		(layer "B.SilkS")
-		(uuid "3fabaf8d-9de0-4836-8b61-4e706e3acbd8")
+		(uuid "3df776b5-9126-46fd-9aa0-fd910e3c9be2")
 	)
 	(fp_line
 		(start -67.525 18.2)
@@ -542,7 +543,7 @@
 			(type default)
 		)
 		(layer "B.SilkS")
-		(uuid "ab25a8ff-ec2c-41e7-aa9e-e166375a9e44")
+		(uuid "45d9b743-b580-455c-9bee-f76a24ad1457")
 	)
 	(fp_line
 		(start -67.525 24.2)
@@ -552,7 +553,7 @@
 			(type default)
 		)
 		(layer "B.SilkS")
-		(uuid "0d3c1392-7cfc-4c30-8c00-ba0b52a44597")
+		(uuid "fd5dfcac-aaa2-44de-8c27-576f81ee4047")
 	)
 	(fp_line
 		(start -66.875 15.85)
@@ -562,7 +563,7 @@
 			(type default)
 		)
 		(layer "B.SilkS")
-		(uuid "10b5bfcf-777a-4237-8d30-6e728cea7672")
+		(uuid "099e7d8c-c770-41a5-a5ec-d81f82babdd6")
 	)
 	(fp_line
 		(start -66.875 21.85)
@@ -572,7 +573,7 @@
 			(type default)
 		)
 		(layer "B.SilkS")
-		(uuid "8533993c-ba76-4b28-be56-fe0021d19dcc")
+		(uuid "418905f7-9bc3-497d-bd24-91298876dbfb")
 	)
 	(fp_line
 		(start -27.22 32.725)
@@ -582,7 +583,7 @@
 			(type default)
 		)
 		(layer "B.SilkS")
-		(uuid "584b0c54-4aa1-4053-b332-7378d24ee333")
+		(uuid "d94e4253-13ed-4ec5-8733-e3b52de37410")
 	)
 	(fp_line
 		(start -27.22 32.725)
@@ -592,7 +593,7 @@
 			(type default)
 		)
 		(layer "B.SilkS")
-		(uuid "1cadd2b7-d542-4a81-80ed-e50adaa4cb39")
+		(uuid "9145f3ef-fe21-4fca-8786-ce44ab450b0d")
 	)
 	(fp_line
 		(start 2.3 32.725)
@@ -602,7 +603,7 @@
 			(type default)
 		)
 		(layer "B.SilkS")
-		(uuid "49dd454b-a578-48a4-903d-d00ac0c01514")
+		(uuid "50d4bcd5-7f6e-41be-bff0-cf0669f030ca")
 	)
 	(fp_line
 		(start 2.6 29.225)
@@ -612,7 +613,7 @@
 			(type default)
 		)
 		(layer "B.SilkS")
-		(uuid "57d81375-f60e-4f62-93b9-a2841eb59241")
+		(uuid "b0501780-2731-4b04-9cd0-e019bdff2d7d")
 	)
 	(fp_line
 		(start 2.6 32.725)
@@ -622,7 +623,7 @@
 			(type default)
 		)
 		(layer "B.SilkS")
-		(uuid "22890b5f-34d6-4b0e-9554-ab96f434bce2")
+		(uuid "71c17703-4157-4b7d-a6bf-080ec365c681")
 	)
 	(fp_line
 		(start 27.175 32.715)
@@ -632,7 +633,7 @@
 			(type default)
 		)
 		(layer "B.SilkS")
-		(uuid "9b4ccb9e-b1ec-4b07-8735-eb918f6c3c5c")
+		(uuid "5d94662e-bd90-4357-aa63-0e0d012793bd")
 	)
 	(fp_line
 		(start 60.875 15.85)
@@ -642,7 +643,7 @@
 			(type default)
 		)
 		(layer "B.SilkS")
-		(uuid "df9cb92b-06cd-4aa3-b10b-423fa3add226")
+		(uuid "b8af7102-3be8-44fe-bf1a-89ae46916453")
 	)
 	(fp_line
 		(start 60.875 21.85)
@@ -652,7 +653,7 @@
 			(type default)
 		)
 		(layer "B.SilkS")
-		(uuid "6b1fecf8-1dd5-4750-9a8e-79cbd643b4d3")
+		(uuid "42ca5728-bbac-406b-be43-be18d5155d68")
 	)
 	(fp_line
 		(start 61.525 18.2)
@@ -662,7 +663,7 @@
 			(type default)
 		)
 		(layer "B.SilkS")
-		(uuid "d881bda3-4e84-45c8-aa4c-35e5fdfd05b9")
+		(uuid "cea898ae-7d0c-4e27-b1f8-fbd4878ce839")
 	)
 	(fp_line
 		(start 61.525 24.2)
@@ -672,7 +673,7 @@
 			(type default)
 		)
 		(layer "B.SilkS")
-		(uuid "48c3603e-33d0-4a70-b0f0-da8537ac0936")
+		(uuid "53424b83-a77b-4824-9df9-de1242206f93")
 	)
 	(fp_line
 		(start 63.675 0.95)
@@ -682,7 +683,7 @@
 			(type default)
 		)
 		(layer "B.SilkS")
-		(uuid "9a7f4201-4a81-4237-9ec0-2f0aca5c9921")
+		(uuid "db35ad8c-5d1a-4d69-8b06-1c5927e10c28")
 	)
 	(fp_line
 		(start 63.675 15.2)
@@ -692,7 +693,7 @@
 			(type default)
 		)
 		(layer "B.SilkS")
-		(uuid "e0f59c6f-0e27-452a-abac-a2333edaf19d")
+		(uuid "aee21ac8-1ec8-47dc-bef1-56e1441c29d5")
 	)
 	(fp_line
 		(start 63.675 18.2)
@@ -702,7 +703,7 @@
 			(type default)
 		)
 		(layer "B.SilkS")
-		(uuid "217a78b4-0d55-41c3-ab82-d8170ca4019e")
+		(uuid "b7e84419-aa7f-4fa4-89b6-8c7ce4dfd24d")
 	)
 	(fp_line
 		(start 63.675 21.2)
@@ -712,7 +713,7 @@
 			(type default)
 		)
 		(layer "B.SilkS")
-		(uuid "f0d85ebd-5977-4f0a-8dc5-75484d3c649e")
+		(uuid "6eaff229-c4ac-4ea4-885c-e6a0fc34d7fd")
 	)
 	(fp_line
 		(start 63.675 32.225)
@@ -722,7 +723,7 @@
 			(type default)
 		)
 		(layer "B.SilkS")
-		(uuid "abfb55ea-61a2-48bc-ac66-1a3a8811ef85")
+		(uuid "a6066ddb-0c18-4950-8db0-71b8d4ee0f6c")
 	)
 	(fp_line
 		(start 63.675 32.225)
@@ -732,7 +733,7 @@
 			(type default)
 		)
 		(layer "B.SilkS")
-		(uuid "ff55ce0c-ea79-43a3-bb79-58e1b99c46ca")
+		(uuid "3780837e-49df-4e04-bf38-47212436ae42")
 	)
 	(fp_arc
 		(start -67.525 15.2)
@@ -743,7 +744,7 @@
 			(type default)
 		)
 		(layer "B.SilkS")
-		(uuid "e418ce6b-b158-4235-b01e-b69e59aa07d4")
+		(uuid "e7b53003-40e6-4387-87c2-380f78fe5689")
 	)
 	(fp_arc
 		(start -67.525 21.2)
@@ -754,7 +755,7 @@
 			(type default)
 		)
 		(layer "B.SilkS")
-		(uuid "a347e645-eea2-4b3c-b448-162f21918cef")
+		(uuid "34c370e8-8735-4b66-8414-f7db1aef5f0a")
 	)
 	(fp_arc
 		(start -66.875 17.55)
@@ -765,7 +766,7 @@
 			(type default)
 		)
 		(layer "B.SilkS")
-		(uuid "c716440e-2281-46f4-a610-8c93fe057e00")
+		(uuid "f7aa8243-8ce4-4453-b1b1-ee1158349530")
 	)
 	(fp_arc
 		(start -66.875 23.55)
@@ -776,7 +777,7 @@
 			(type default)
 		)
 		(layer "B.SilkS")
-		(uuid "28613e28-523b-42d6-89d1-b0274061a062")
+		(uuid "ad1d5130-81a2-4a44-bb7e-12a148a90513")
 	)
 	(fp_arc
 		(start 2.3 29.225)
@@ -787,7 +788,7 @@
 			(type default)
 		)
 		(layer "B.SilkS")
-		(uuid "f8c94eaf-f099-4729-921e-52a88da8af76")
+		(uuid "7fe5af69-6ada-4608-84f3-26c3705f0637")
 	)
 	(fp_arc
 		(start 60.875 15.85)
@@ -798,7 +799,7 @@
 			(type default)
 		)
 		(layer "B.SilkS")
-		(uuid "bedf7a02-2666-442d-9be4-89b048009026")
+		(uuid "fe83a97f-fe5e-4456-8500-2793efe2c54a")
 	)
 	(fp_arc
 		(start 60.875 21.85)
@@ -809,7 +810,7 @@
 			(type default)
 		)
 		(layer "B.SilkS")
-		(uuid "01bc80cb-fa52-4ceb-ace5-c5812fd44153")
+		(uuid "88ccdb26-bbe9-4be7-9c57-83b1fff8de33")
 	)
 	(fp_arc
 		(start 61.525 18.2)
@@ -820,7 +821,7 @@
 			(type default)
 		)
 		(layer "B.SilkS")
-		(uuid "5872155f-5fa1-4f11-929b-b3d298460e55")
+		(uuid "cdfee96a-a46b-4fef-a576-63c40fbbe2e9")
 	)
 	(fp_arc
 		(start 61.525 24.2)
@@ -831,7 +832,7 @@
 			(type default)
 		)
 		(layer "B.SilkS")
-		(uuid "e18723d4-23f5-4412-9382-3d758eeceebd")
+		(uuid "32f8f9f6-6968-466a-8044-64939b0a8313")
 	)
 	(fp_line
 		(start -69.675 0.95)
@@ -841,7 +842,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "ba24a40b-2b10-4e28-abe1-26eeaba859fb")
+		(uuid "48ddf891-c56b-4f71-8f5f-2106fc61d331")
 	)
 	(fp_line
 		(start -69.675 15.2)
@@ -851,7 +852,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "e83c1f49-f676-400a-960c-45e1424ce6eb")
+		(uuid "c8581b37-999a-48a3-a0dd-26b026fddc0c")
 	)
 	(fp_line
 		(start -69.675 15.2)
@@ -861,7 +862,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "6c7a3f0e-dea9-43e0-b5db-cda7f657ee18")
+		(uuid "6b424969-b804-4223-8ed2-6016a9d4d2fb")
 	)
 	(fp_line
 		(start -69.675 18.2)
@@ -871,7 +872,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "15d4cafc-e5d6-4d2c-b6b9-92e8fe9e3b1e")
+		(uuid "12054fd4-72b5-42d9-9abd-79d890317257")
 	)
 	(fp_line
 		(start -69.675 21.2)
@@ -881,7 +882,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "6d9b233b-d655-47ae-a8ad-46eab8cd3f9a")
+		(uuid "4865b641-fe4c-4afa-a984-fbfbf3a1fe84")
 	)
 	(fp_line
 		(start -69.675 24.2)
@@ -891,7 +892,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "43da86b5-6595-4f86-9701-c71ea28b51e4")
+		(uuid "a93a57a1-7348-4c4e-b337-ecc3983130a0")
 	)
 	(fp_line
 		(start -69.675 32.225)
@@ -901,7 +902,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "7f1bbeba-1ff1-4734-a352-c37cd905cb21")
+		(uuid "52c11767-25fc-4664-9b4e-233976405a82")
 	)
 	(fp_line
 		(start -67.525 18.2)
@@ -911,7 +912,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "145343f6-c891-4c71-be86-91a7e6cae593")
+		(uuid "c2bacbe6-0f76-4f29-9cb7-8adb3a4ffecd")
 	)
 	(fp_line
 		(start -67.525 24.2)
@@ -921,7 +922,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "61920a68-7a8a-4ff5-8882-3373701d7400")
+		(uuid "4e21009f-78aa-413b-97b8-53ac18201916")
 	)
 	(fp_line
 		(start -66.875 15.85)
@@ -931,7 +932,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "6f8607d4-30d6-46bc-83ec-2a3f3f17d362")
+		(uuid "84821fa7-ea50-4bd6-80d2-2b504ef2a789")
 	)
 	(fp_line
 		(start -66.875 21.85)
@@ -941,7 +942,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "fc9687f0-9334-4fc1-8273-d49bccfe2d5a")
+		(uuid "a8b0b756-3448-4e21-b61e-7e5fd5730d56")
 	)
 	(fp_line
 		(start -27.22 32.725)
@@ -951,7 +952,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "7574382e-04b9-4c08-88aa-5958d8452954")
+		(uuid "e8085b68-2b16-4915-9391-ec97ad5fa9ae")
 	)
 	(fp_line
 		(start -27.22 32.725)
@@ -961,7 +962,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "17284c3c-2205-488e-bd8c-6638e5fbc66d")
+		(uuid "fb8f4464-66e2-49d2-8a91-1b251fcdda08")
 	)
 	(fp_line
 		(start 2.3 32.725)
@@ -971,7 +972,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "85d37418-957f-4a74-b52f-3811c49c7d2b")
+		(uuid "11274c40-3b42-4aef-8b44-8c0224e542a3")
 	)
 	(fp_line
 		(start 2.6 29.225)
@@ -981,7 +982,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "8f4d12e0-c005-451f-bea0-2027d45b6457")
+		(uuid "fee5bfd4-15ea-4bba-9bfd-3db8498dd269")
 	)
 	(fp_line
 		(start 2.6 32.725)
@@ -991,7 +992,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "ce053c06-cb18-44b0-a38c-2b79a1f3ec5b")
+		(uuid "548f1147-ee7d-46e2-ad47-af41e1d11552")
 	)
 	(fp_line
 		(start 27.175 32.725)
@@ -1001,7 +1002,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "7c2bf5a7-9c6d-4c8b-b069-f6d96184ef07")
+		(uuid "1cf917b2-fac0-4167-bb45-dfc89421ef5d")
 	)
 	(fp_line
 		(start 60.875 15.85)
@@ -1011,7 +1012,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "d3b1fb4d-3ba4-40cf-83b6-d449e18f8a25")
+		(uuid "06996cfc-f496-43ff-9eb8-db31115454b4")
 	)
 	(fp_line
 		(start 60.875 21.85)
@@ -1021,7 +1022,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "a139dc66-c0ac-4e90-939f-71336976dc8d")
+		(uuid "95a1a49d-e05f-4e71-a18b-d2cc0dd716ed")
 	)
 	(fp_line
 		(start 61.525 18.2)
@@ -1031,7 +1032,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "6b07bd80-9609-4549-a45b-c63a9418f24e")
+		(uuid "255cd65f-3b97-4cb1-99db-dcda321754d9")
 	)
 	(fp_line
 		(start 61.525 24.2)
@@ -1041,7 +1042,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "309fbb4a-d010-4147-aae1-da37b168a7f4")
+		(uuid "dbe81851-3f4d-48c1-9854-e481d416adf0")
 	)
 	(fp_line
 		(start 63.675 0.95)
@@ -1051,7 +1052,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "fadf6e3c-b00b-407d-9ff3-dc3a7dcd5e42")
+		(uuid "0f433674-fbb3-4d34-a317-cccc5c8c668f")
 	)
 	(fp_line
 		(start 63.675 15.2)
@@ -1061,7 +1062,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "14af4062-6a5a-46d7-91c8-1e9decd124b7")
+		(uuid "08834e3a-6704-47f2-8685-f4289c9bde8b")
 	)
 	(fp_line
 		(start 63.675 18.2)
@@ -1071,7 +1072,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "56f161e9-85a1-43a3-82ea-bbc5f70c6238")
+		(uuid "b09a8625-13e9-47ba-a016-828c67b37b22")
 	)
 	(fp_line
 		(start 63.675 21.2)
@@ -1081,7 +1082,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "e739c307-df76-4a24-baad-b0c92611a003")
+		(uuid "47bdd22b-5767-40bd-9089-fcaa9030f0fb")
 	)
 	(fp_line
 		(start 63.675 32.225)
@@ -1091,7 +1092,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "d9ffaf2c-41ea-4d29-9b4c-7978fc28597f")
+		(uuid "363c0c1e-4861-42fb-b980-e84c12c515bc")
 	)
 	(fp_line
 		(start 63.675 32.225)
@@ -1101,7 +1102,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "27f60487-c6b3-4888-929a-fde19b314e1a")
+		(uuid "4daa0314-eb35-4911-b13f-efdfac4e62a4")
 	)
 	(fp_arc
 		(start -67.525 15.2)
@@ -1112,7 +1113,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "52cc8165-7f9f-4cb4-bf0d-3a28f82eba22")
+		(uuid "a2fe7d54-9a93-427e-a289-2b9cb00934a7")
 	)
 	(fp_arc
 		(start -67.525 21.2)
@@ -1123,7 +1124,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "9c8dc4a1-8966-450b-8d11-ca87f11741a0")
+		(uuid "6d12991a-bb2f-446c-a05f-6a4cda23f64a")
 	)
 	(fp_arc
 		(start -66.875 17.55)
@@ -1134,7 +1135,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "60fcc6be-9ce3-490c-9cc6-b4cae3598396")
+		(uuid "feed0b82-da98-40c2-bec2-209d73e95ad9")
 	)
 	(fp_arc
 		(start -66.875 23.55)
@@ -1145,7 +1146,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "5c2d519b-c49e-41d2-b1ad-6a4340b52290")
+		(uuid "6e377705-d18b-4089-91fb-40ba7714b12e")
 	)
 	(fp_arc
 		(start 2.3 29.225)
@@ -1156,7 +1157,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "35727a51-307a-4aa0-aab2-63649e81f8ec")
+		(uuid "bb102337-8f47-4033-9048-eac46f2b19c7")
 	)
 	(fp_arc
 		(start 60.875 15.85)
@@ -1167,7 +1168,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "0329d7e5-d7b3-4ea1-82af-4e5e22604db4")
+		(uuid "5731bfd3-220b-498b-aa0b-a4f6b954a854")
 	)
 	(fp_arc
 		(start 60.875 21.85)
@@ -1178,7 +1179,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "28c223b7-a315-4f9c-9ba8-e91a03acb99f")
+		(uuid "047f1a16-f988-4399-9b73-a20105004076")
 	)
 	(fp_arc
 		(start 61.525 18.2)
@@ -1189,7 +1190,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "df8db3fd-b916-4c33-bbd0-214d7df8f81c")
+		(uuid "3c2d80b0-d322-4b31-94a8-459af2b1384f")
 	)
 	(fp_arc
 		(start 61.525 24.2)
@@ -1200,7 +1201,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "1f8c5444-4ccb-4bbe-88cb-c39547cc6a5f")
+		(uuid "7833fe04-021b-429f-af1a-9160bcc79ee8")
 	)
 	(pad "1" connect roundrect
 		(at -66.325 31.15)
@@ -1210,7 +1211,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "0b3dc88b-160c-4485-937a-ecf8a90498d4")
+		(uuid "5714754b-5dd6-4c8e-a788-85099dafef91")
 	)
 	(pad "2" connect roundrect
 		(at -65.475 31.15)
@@ -1220,7 +1221,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "de3590c2-2fe7-48c6-b143-cd350028eeaa")
+		(uuid "e2eb57a4-8b05-4272-9f02-b7c200da6b00")
 	)
 	(pad "3" connect roundrect
 		(at -64.625 31.15)
@@ -1230,7 +1231,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "a2aed167-8c25-435e-bd15-28113c43912c")
+		(uuid "fa69953f-339a-42ed-8b72-21f031c944db")
 	)
 	(pad "4" connect roundrect
 		(at -63.775 31.15)
@@ -1240,7 +1241,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "b736f996-4de7-4f1b-9956-ec8c13237142")
+		(uuid "5582562f-84e1-4c82-b96a-f29e33d77b53")
 	)
 	(pad "5" connect roundrect
 		(at -62.925 31.15)
@@ -1250,7 +1251,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "8995ae94-63e1-44e9-b9dd-281b347e4993")
+		(uuid "26edd50e-bd3c-4454-8c4d-e4082a0515ea")
 	)
 	(pad "6" connect roundrect
 		(at -62.075 31.15)
@@ -1260,7 +1261,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "85329aa8-cb63-4595-b9f2-b7308bfae1b8")
+		(uuid "7ff58bb5-4810-4d8a-aefd-6a5a57dcdc82")
 	)
 	(pad "7" connect roundrect
 		(at -61.225 31.15)
@@ -1270,7 +1271,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "448dbf41-1f2d-4d06-92e1-b706fc23aa9d")
+		(uuid "72a53f0d-9cf3-4df0-a83f-2ec9cc79f72d")
 	)
 	(pad "8" connect roundrect
 		(at -60.375 31.15)
@@ -1280,7 +1281,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "f0872ea7-9630-419c-903e-bbfb5ef66d0e")
+		(uuid "b3e88397-5760-42bf-9058-2c426987eb59")
 	)
 	(pad "9" connect roundrect
 		(at -59.525 31.15)
@@ -1290,7 +1291,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "9a98f4c9-f06a-4251-bd48-9f4476da212b")
+		(uuid "07f3686d-2294-47e9-a525-de1e245ebab1")
 	)
 	(pad "10" connect roundrect
 		(at -58.675 31.15)
@@ -1300,7 +1301,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "ae12dc10-9f27-4cc3-a244-f75ed24a4cb4")
+		(uuid "9ee0c59c-79f5-4028-98fa-9adeeaba46a8")
 	)
 	(pad "11" connect roundrect
 		(at -57.825 31.15)
@@ -1310,7 +1311,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "78f0f9fa-21a6-49e9-a516-bc344cd27fc2")
+		(uuid "2533d1f2-4cc2-489a-b70f-de2a83edb387")
 	)
 	(pad "12" connect roundrect
 		(at -56.975 31.15)
@@ -1320,7 +1321,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "107b2866-d180-4780-81f8-e0c12a9f82ee")
+		(uuid "2a5ac659-1b17-40aa-b919-8b9b99eb39c8")
 	)
 	(pad "13" connect roundrect
 		(at -56.125 31.15)
@@ -1330,7 +1331,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "388c6ae0-fb7e-47a0-b61e-49dcab07eec4")
+		(uuid "e6ada92b-6088-43ce-b8da-52272ad10a75")
 	)
 	(pad "14" connect roundrect
 		(at -55.275 31.15)
@@ -1340,7 +1341,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "9ac352c3-7ce4-405d-af2f-3a42e8471aad")
+		(uuid "10f4119e-7365-4148-8003-6337531cb9ce")
 	)
 	(pad "15" connect roundrect
 		(at -54.425 31.15)
@@ -1350,7 +1351,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "b7c32fd3-30f4-4b9f-b5ef-ef568e43e123")
+		(uuid "5aac2963-0f6d-44c4-84d2-28d427d07885")
 	)
 	(pad "16" connect roundrect
 		(at -53.575 31.15)
@@ -1360,7 +1361,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "30c2fabe-c28c-442b-9949-dc0bf9423b73")
+		(uuid "082194fb-ab76-4247-9726-51fe2037325e")
 	)
 	(pad "17" connect roundrect
 		(at -52.725 31.15)
@@ -1370,7 +1371,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "c71dc798-e3a7-4409-808e-47cd3d4f9b6b")
+		(uuid "70669d55-4bce-4092-be84-3e0b375ad80d")
 	)
 	(pad "18" connect roundrect
 		(at -51.875 31.15)
@@ -1380,7 +1381,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "03192bdc-77ca-4930-8cba-6cb31ee3998d")
+		(uuid "af1ba8e5-72c9-474f-8963-b9eba74be091")
 	)
 	(pad "19" connect roundrect
 		(at -51.025 31.15)
@@ -1390,7 +1391,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "7172424c-1d55-400f-a93d-36f6543a0980")
+		(uuid "22a2ba4f-5828-4c1c-8eac-2db7719ba33a")
 	)
 	(pad "20" connect roundrect
 		(at -50.175 31.15)
@@ -1400,7 +1401,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "0564b292-b652-44fb-8a1e-db7924ee9180")
+		(uuid "255e74fb-5547-462e-8757-b3af7d7a08b1")
 	)
 	(pad "21" connect roundrect
 		(at -49.325 31.15)
@@ -1410,7 +1411,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "b03f7951-de79-4c67-b902-875a1c9dac6c")
+		(uuid "dd774d27-15b8-49c3-b8da-96aca758087a")
 	)
 	(pad "22" connect roundrect
 		(at -48.475 31.15)
@@ -1420,7 +1421,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "a6e36c66-199a-41eb-9ca7-c7bba8806afc")
+		(uuid "2273506a-3bef-4a1e-b0eb-f8c19f160554")
 	)
 	(pad "23" connect roundrect
 		(at -47.625 31.15)
@@ -1430,7 +1431,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "2a64768b-5123-4eff-b9a6-e5a1ff637f59")
+		(uuid "e5271c5d-131d-4144-97ea-22f48029c025")
 	)
 	(pad "24" connect roundrect
 		(at -46.775 31.15)
@@ -1440,7 +1441,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "46896dbd-eefb-4837-8d7e-1ba600ee7fde")
+		(uuid "6c0e6833-dbba-49cf-afcd-959d181eac08")
 	)
 	(pad "25" connect roundrect
 		(at -45.925 31.15)
@@ -1450,7 +1451,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "8d78fbd6-5b89-48ea-960d-31544a9dd838")
+		(uuid "acb9ad3a-2d0b-4b5f-bdc6-59257f9e0a25")
 	)
 	(pad "26" connect roundrect
 		(at -45.075 31.15)
@@ -1460,7 +1461,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "94834608-574b-4a01-a282-4fb3e854c5f5")
+		(uuid "e1a3464a-5f73-4152-9604-56fb046b212b")
 	)
 	(pad "27" connect roundrect
 		(at -44.225 31.15)
@@ -1470,7 +1471,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "4603de94-fd83-4eea-9f97-11ab457497c7")
+		(uuid "3f9da761-7d5e-4f43-891e-02b0b57f7cbd")
 	)
 	(pad "28" connect roundrect
 		(at -43.375 31.15)
@@ -1480,7 +1481,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "850c2f5e-305a-43c5-828c-635cdf36881a")
+		(uuid "12514a51-c065-4993-8796-ec6dcf38a647")
 	)
 	(pad "29" connect roundrect
 		(at -42.525 31.15)
@@ -1490,7 +1491,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "3f2aa1d7-83b5-4b87-a9cd-14f527be2d47")
+		(uuid "afaeaccb-9305-4fd0-81d0-ef53565a9fb6")
 	)
 	(pad "30" connect roundrect
 		(at -41.675 31.15)
@@ -1500,7 +1501,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "21e172b5-a3c9-49a9-949d-f62237d81b0c")
+		(uuid "a564069e-6545-4819-80be-f6838364bc4f")
 	)
 	(pad "31" connect roundrect
 		(at -40.825 31.15)
@@ -1510,7 +1511,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "8e4a2c4f-f317-4c43-a974-1703791b4408")
+		(uuid "2b9285b5-5381-4411-8924-22e6695bd2a5")
 	)
 	(pad "32" connect roundrect
 		(at -39.975 31.15)
@@ -1520,7 +1521,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "d68885b0-7e0f-4dff-8c1a-ad712cbf363f")
+		(uuid "7d9fd003-8553-48fc-9b78-6646c8fbe026")
 	)
 	(pad "33" connect roundrect
 		(at -39.125 31.15)
@@ -1530,7 +1531,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "fb36fdf5-9547-4da1-8d32-5552ed83f878")
+		(uuid "7bd7a614-e639-4480-9c82-44a2a4321555")
 	)
 	(pad "34" connect roundrect
 		(at -38.275 31.15)
@@ -1540,7 +1541,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "e24f2119-0b11-4564-9c03-eb67db4ea1cf")
+		(uuid "9f56d89b-3ef8-4a3d-a872-23b4fa04b19c")
 	)
 	(pad "35" connect roundrect
 		(at -37.425 31.15)
@@ -1550,7 +1551,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "1ee83fe4-8efa-4c15-b0a3-c0f79b7b7a4f")
+		(uuid "b9ef3125-44f3-4c94-9bee-9866fb6a0bbb")
 	)
 	(pad "36" connect roundrect
 		(at -36.575 31.15)
@@ -1560,7 +1561,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "6b90ef5e-a3ed-45c0-a1c6-de9916e6ab1f")
+		(uuid "4444eda1-17c5-484c-bfd2-e0e563405859")
 	)
 	(pad "37" connect roundrect
 		(at -35.725 31.15)
@@ -1570,7 +1571,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "a1d9ffa2-adb3-4c12-adb3-41b508cc501c")
+		(uuid "ebae5c46-58d5-4424-b971-3a0bcd130f48")
 	)
 	(pad "38" connect roundrect
 		(at -34.875 31.17)
@@ -1580,7 +1581,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "73d9d265-a2e0-4aca-ab65-4b0b2db34654")
+		(uuid "d4417571-f1eb-4ad0-b80d-bf22db8736f3")
 	)
 	(pad "39" connect roundrect
 		(at -34.025 31.19)
@@ -1590,7 +1591,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "fc6c3b3e-a703-423e-b449-ebec1acdea8b")
+		(uuid "9923571a-7b71-40c4-8c06-c3e78b61eb28")
 	)
 	(pad "40" connect roundrect
 		(at -33.175 31.21)
@@ -1600,7 +1601,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "ab4dbd8a-e883-40be-9425-cc31cfe2fc64")
+		(uuid "27888656-6f30-421a-ad86-0ae509a52058")
 	)
 	(pad "41" connect roundrect
 		(at -32.325 31.24)
@@ -1610,7 +1611,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "9a85da9d-e1a5-4396-8f32-ec54ddae35d8")
+		(uuid "5e42a9c5-8534-4768-9f0c-634ab3d452f8")
 	)
 	(pad "42" connect roundrect
 		(at -31.475 31.27)
@@ -1620,7 +1621,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "6277f72c-0005-4d8c-9b28-9bbaa6d48e90")
+		(uuid "534e11be-a035-460a-a855-02728a4665e9")
 	)
 	(pad "43" connect roundrect
 		(at -30.625 31.3)
@@ -1630,7 +1631,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "c0b6b9a2-5cc2-4e44-af9a-a311f54a6559")
+		(uuid "981c0924-c975-40fc-99d1-34e86cec16d7")
 	)
 	(pad "44" connect roundrect
 		(at -29.775 31.32)
@@ -1640,7 +1641,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "75374068-bfb3-4c58-a5a7-e64e4e476da2")
+		(uuid "48958d46-d53a-4ca5-8deb-ed82cf2e0456")
 	)
 	(pad "45" connect roundrect
 		(at -28.915 31.35)
@@ -1650,7 +1651,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "b6bf6ed6-0ebf-4d76-bc85-cbe5ddb38a67")
+		(uuid "743d83a8-02c4-4a95-8c53-211b4a9ec16a")
 	)
 	(pad "46" connect roundrect
 		(at -28.065 31.38)
@@ -1660,7 +1661,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "dfc2e2ab-be56-4c3b-949a-56dffc40869e")
+		(uuid "e59fd772-b265-4281-bef6-3fec4aa03778")
 	)
 	(pad "47" connect roundrect
 		(at -27.225 31.4)
@@ -1670,7 +1671,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "8f1f9991-5105-4901-a2de-0490d78e2aae")
+		(uuid "2ae5fb5e-8594-4f2d-8557-d8d088b7469d")
 	)
 	(pad "48" connect roundrect
 		(at -26.375 31.4)
@@ -1680,7 +1681,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "2bc4eaed-ae7d-41f1-a78e-12591a382080")
+		(uuid "ffd0b861-1fc4-480a-80b6-b313290fd816")
 	)
 	(pad "49" connect roundrect
 		(at -25.525 31.4)
@@ -1690,7 +1691,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "a505745d-f901-41f2-8750-f93301301842")
+		(uuid "3cfd8381-ee9b-4cbc-9ee4-5bb789374f88")
 	)
 	(pad "50" connect roundrect
 		(at -24.675 31.4)
@@ -1700,7 +1701,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "81b7318f-141b-4a94-9961-02db8a2bb71a")
+		(uuid "c43c3626-7f35-439f-b3c0-871091fed7dd")
 	)
 	(pad "51" connect roundrect
 		(at -23.825 31.4)
@@ -1710,7 +1711,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "0f3b2b68-6b0e-4f4b-903b-6c6655e40b4d")
+		(uuid "22f61152-98e1-45f9-9bc0-2b268cc760b6")
 	)
 	(pad "52" connect roundrect
 		(at -22.975 31.4)
@@ -1720,7 +1721,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "350c0712-aa23-4a80-9e28-2fb6f4649601")
+		(uuid "e644620c-bc16-4e64-bd9f-b0801586b3b1")
 	)
 	(pad "53" connect roundrect
 		(at -22.125 31.4)
@@ -1730,7 +1731,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "f07a32ea-d791-413a-b193-80048916128a")
+		(uuid "4172abc5-3b25-4952-9649-9e7bedee5c0d")
 	)
 	(pad "54" connect roundrect
 		(at -21.275 31.4)
@@ -1740,7 +1741,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "9d8938f4-2367-45d1-b309-6bd30ea46d67")
+		(uuid "0b1291ed-da16-4ec8-9087-3ff549d4b41c")
 	)
 	(pad "55" connect roundrect
 		(at -20.425 31.4)
@@ -1750,7 +1751,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "9c893be2-9171-4277-b00a-7731461b7f20")
+		(uuid "4dff53cf-6c59-4e75-b90a-73669de7604f")
 	)
 	(pad "56" connect roundrect
 		(at -19.575 31.4)
@@ -1760,7 +1761,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "c45b9a02-8899-49a5-8f06-8ed8d277081e")
+		(uuid "610af0b9-ff11-469d-9798-27fa8f4558ee")
 	)
 	(pad "57" connect roundrect
 		(at -18.725 31.4)
@@ -1770,7 +1771,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "dc594d10-6d43-4d05-821a-f3f513f50248")
+		(uuid "8b5b6e41-c16e-4d56-ae8a-bb9ff7d35b67")
 	)
 	(pad "58" connect roundrect
 		(at -17.875 31.4)
@@ -1780,7 +1781,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "47820faa-6a01-47e3-bafe-7e91283e9172")
+		(uuid "9fec3518-7d82-4c8f-ad82-9f92582eedfe")
 	)
 	(pad "59" connect roundrect
 		(at -17.025 31.4)
@@ -1790,7 +1791,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "3a7609f3-c2df-41ee-b1e6-1a681e602d58")
+		(uuid "538ea2d0-82c1-482b-9197-6a9fdfadfcea")
 	)
 	(pad "60" connect roundrect
 		(at -16.175 31.4)
@@ -1800,7 +1801,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "804db7b4-ca14-44d9-9b52-52a1e5c05c96")
+		(uuid "40dac9d8-377e-4c11-a371-f3edcee87e98")
 	)
 	(pad "61" connect roundrect
 		(at -15.325 31.4)
@@ -1810,7 +1811,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "5168a36c-7865-48ca-b546-694e33286e6b")
+		(uuid "b29ad871-2ed8-4134-89c6-d3bc9c06c727")
 	)
 	(pad "62" connect roundrect
 		(at -14.475 31.4)
@@ -1820,7 +1821,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "bdb3ce01-fd32-4da0-8af0-ce715bba0a17")
+		(uuid "1d2aa3b3-0815-4e42-bcfc-3c86077a565c")
 	)
 	(pad "63" connect roundrect
 		(at -13.625 31.4)
@@ -1830,7 +1831,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "dba1d289-4f95-4cf6-a573-ac94caa999ce")
+		(uuid "622b7630-25a5-44f0-a250-49a6d17a5750")
 	)
 	(pad "64" connect roundrect
 		(at -12.775 31.4)
@@ -1840,7 +1841,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "f6b6c691-7290-4f82-a793-dc9111fd42ed")
+		(uuid "27879096-72d7-41ca-84c5-b0186d21278f")
 	)
 	(pad "65" connect roundrect
 		(at -11.925 31.4)
@@ -1850,7 +1851,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "a346f516-d082-4c83-a8f2-1aa8a1a2e93d")
+		(uuid "e97f6b94-cb24-49bc-9906-c6b805d9cfde")
 	)
 	(pad "66" connect roundrect
 		(at -11.075 31.4)
@@ -1860,7 +1861,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "1be34354-ebe6-4b3e-bcc1-db8ed2c0d7af")
+		(uuid "bd1dbbf4-33e0-4cc9-8915-fd1a7240fc01")
 	)
 	(pad "67" connect roundrect
 		(at -10.225 31.4)
@@ -1870,7 +1871,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "497bdfc4-b6de-45b3-8250-7015fa3fbee9")
+		(uuid "7b7422b0-699c-489f-8d87-c0264e634369")
 	)
 	(pad "68" connect roundrect
 		(at -9.375 31.4)
@@ -1880,7 +1881,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "5f5d5564-2ce5-496d-93fc-7dbd9252714e")
+		(uuid "c59b8f7a-7b3e-4b5b-a0dd-c0884f23a374")
 	)
 	(pad "69" connect roundrect
 		(at -8.525 31.4)
@@ -1890,7 +1891,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "a38102b7-c93c-42ea-8ec9-969af3f24b7d")
+		(uuid "bfc21a6d-05c4-45aa-9995-8e5eea83185a")
 	)
 	(pad "70" connect roundrect
 		(at -7.675 31.4)
@@ -1900,7 +1901,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "0addc957-8954-4660-bfc4-9781e0d1b819")
+		(uuid "d51639f0-e70a-4bb6-8ee1-a2dc02c21f08")
 	)
 	(pad "71" connect roundrect
 		(at -6.825 31.4)
@@ -1910,7 +1911,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "7821d090-b20d-441d-9351-e21d609c21b5")
+		(uuid "fddeebdd-2a24-4e92-b4d8-53147191c5d2")
 	)
 	(pad "72" connect roundrect
 		(at -5.975 31.4)
@@ -1920,7 +1921,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "e1b397f1-6289-4f5b-84e1-40deb90fa35b")
+		(uuid "b9e87ef1-1968-4cad-b317-fc0a74e0a5f1")
 	)
 	(pad "73" connect roundrect
 		(at -5.125 31.4)
@@ -1930,7 +1931,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "d73ef741-0835-446d-98c3-81a1c4db7d9d")
+		(uuid "320c7807-fb16-40a7-a69f-3bd62722f097")
 	)
 	(pad "74" connect roundrect
 		(at -4.275 31.4)
@@ -1940,7 +1941,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "6110b843-0d88-41f2-a726-f402d6839ded")
+		(uuid "5b3adce3-7865-4172-b599-4c67a855ac0e")
 	)
 	(pad "75" connect roundrect
 		(at -3.425 31.4)
@@ -1950,7 +1951,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "edda7b3c-a036-4e21-8c35-32133439ec11")
+		(uuid "78c702b6-538c-4775-97ba-fa9820930b9f")
 	)
 	(pad "76" connect roundrect
 		(at -2.575 31.4)
@@ -1960,7 +1961,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "ed49d2c8-71c4-4053-bb9e-7b9ffac5d820")
+		(uuid "10b2567f-870e-4ab3-9bd6-650ce85ee5c8")
 	)
 	(pad "77" connect roundrect
 		(at -1.725 31.4)
@@ -1970,7 +1971,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "bff75760-2394-4bf1-a342-60a8b3329b96")
+		(uuid "df37b682-6ac6-435c-8be3-56507938f3a4")
 	)
 	(pad "78" connect roundrect
 		(at 4.225 31.4)
@@ -1980,7 +1981,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "e84e34a1-250a-4f8a-b0c0-33a38c9653c6")
+		(uuid "ccc384fa-e897-4b89-9a2b-2cd36ed7572e")
 	)
 	(pad "79" connect roundrect
 		(at 5.075 31.4)
@@ -1990,7 +1991,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "7f110709-40c6-4f4b-9495-8301eb39f02c")
+		(uuid "2688aa45-60cf-4057-9fd4-5b1822bd3d81")
 	)
 	(pad "80" connect roundrect
 		(at 5.925 31.4)
@@ -2000,7 +2001,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "f3d39d86-5c1c-4127-8edf-6362f898ca52")
+		(uuid "b3158057-b08f-4a28-ad0b-ca1aa93ed035")
 	)
 	(pad "81" connect roundrect
 		(at 6.775 31.4)
@@ -2010,7 +2011,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "470bf932-e872-4829-9795-9281841f0a93")
+		(uuid "72e5ba30-3321-4967-9cdd-0bb8d15a5f91")
 	)
 	(pad "82" connect roundrect
 		(at 7.625 31.4)
@@ -2020,7 +2021,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "b6777a1a-3e82-4c28-a7e7-aab0eb108c16")
+		(uuid "1545b660-48c6-4400-a38c-b434aa751390")
 	)
 	(pad "83" connect roundrect
 		(at 8.475 31.4)
@@ -2030,7 +2031,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "0ae7acac-05da-4071-9f17-d7a910c0f911")
+		(uuid "ec6207a8-334a-4941-bee2-d0472a9d0b9e")
 	)
 	(pad "84" connect roundrect
 		(at 9.325 31.4)
@@ -2040,7 +2041,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "68c280f1-d823-49e1-9f81-f626a8fc2cec")
+		(uuid "c6ad7201-1852-4378-8698-efce1f483bb1")
 	)
 	(pad "85" connect roundrect
 		(at 10.175 31.4)
@@ -2050,7 +2051,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "696e5c42-e48f-4b54-b20c-6654ae4df3fe")
+		(uuid "e52c5a86-2b19-4ea9-a386-6a3e01a43974")
 	)
 	(pad "86" connect roundrect
 		(at 11.025 31.4)
@@ -2060,7 +2061,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "296089a7-69bd-4863-a75f-142122ce8d7b")
+		(uuid "e391aa2b-2f92-4d3a-ad33-e6c55d4df03b")
 	)
 	(pad "87" connect roundrect
 		(at 11.875 31.4)
@@ -2070,7 +2071,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "98934723-e2fa-43f5-ab32-53b14c02b1d0")
+		(uuid "1cb1b73b-58b6-43d0-a763-75149adb10a5")
 	)
 	(pad "88" connect roundrect
 		(at 12.725 31.4)
@@ -2080,7 +2081,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "2f885810-ed51-4ab9-80e7-16c6ff4fc77f")
+		(uuid "aa46652a-1ae5-447d-9c33-d7e254e1819e")
 	)
 	(pad "89" connect roundrect
 		(at 13.575 31.4)
@@ -2090,7 +2091,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "a8a2836d-11b9-4e29-b3b6-6fc1897403e1")
+		(uuid "0cd46441-44ef-40f7-96c4-d44621d3f8b9")
 	)
 	(pad "90" connect roundrect
 		(at 14.425 31.4)
@@ -2100,7 +2101,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "59630c5a-7e6b-47f8-9a7e-0fc7cc4f7907")
+		(uuid "6b7a43cf-e19a-42a8-a77c-fa12fe28aaad")
 	)
 	(pad "91" connect roundrect
 		(at 15.275 31.4)
@@ -2110,7 +2111,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "c2e8adfb-8315-4a16-8fd8-6522634e666d")
+		(uuid "54ab2966-4680-48b3-9755-75c6b8f79776")
 	)
 	(pad "92" connect roundrect
 		(at 16.125 31.4)
@@ -2120,7 +2121,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "0893aaa3-b924-4c8d-8c43-90c0a4bbc5af")
+		(uuid "2da3367b-7531-42e1-9797-33256b7c4cff")
 	)
 	(pad "93" connect roundrect
 		(at 16.975 31.4)
@@ -2130,7 +2131,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "c7ee5e7b-8d1a-40e7-abb9-77b727dcdbe4")
+		(uuid "46540544-ee02-4617-bda7-644e54942f62")
 	)
 	(pad "94" connect roundrect
 		(at 17.825 31.4)
@@ -2140,7 +2141,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "7cfbb00d-7790-43a1-a49e-3e629c1e91bd")
+		(uuid "a7cb4978-d4da-4318-8890-a15fc960a244")
 	)
 	(pad "95" connect roundrect
 		(at 18.675 31.4)
@@ -2150,7 +2151,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "3d4d709b-f53c-43a6-8436-e7e9193a9422")
+		(uuid "50ea0c14-57b7-4c6d-aee4-40600ed1fb34")
 	)
 	(pad "96" connect roundrect
 		(at 19.525 31.4)
@@ -2160,7 +2161,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "4ebb8663-53da-4cbf-b1e4-0526cd199cb6")
+		(uuid "eb5203d2-27c7-4f26-951c-50d5f00e5510")
 	)
 	(pad "97" connect roundrect
 		(at 20.375 31.4)
@@ -2170,7 +2171,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "88cbb8cf-8029-4af4-897e-63d46fe9dfe2")
+		(uuid "1c94a045-34fc-438e-8bca-68c06c3a466c")
 	)
 	(pad "98" connect roundrect
 		(at 21.225 31.4)
@@ -2180,7 +2181,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "feaac8fa-f51c-48c6-9fbf-01910218eb3a")
+		(uuid "8840e85b-1237-4540-b013-5726d01c1464")
 	)
 	(pad "99" connect roundrect
 		(at 22.075 31.4)
@@ -2190,7 +2191,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "cc91d69c-c405-4fcc-a762-5f274f8e656a")
+		(uuid "6627b97b-2cf0-4056-aad8-b34392a7c120")
 	)
 	(pad "100" connect roundrect
 		(at 22.925 31.4)
@@ -2200,7 +2201,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "249af26d-10bd-4716-b9dd-22c52e7e47da")
+		(uuid "b4dfe592-5d4d-432a-8e56-3f4763c1958e")
 	)
 	(pad "101" connect roundrect
 		(at 23.775 31.4)
@@ -2210,7 +2211,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "5b59aad4-d339-4878-aae6-41b6ee00c5ac")
+		(uuid "955c3330-a99a-4eed-82b1-06d97748c64d")
 	)
 	(pad "102" connect roundrect
 		(at 24.625 31.4)
@@ -2220,7 +2221,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "8f483cfa-fa77-457d-8456-edd9fe0120d8")
+		(uuid "477a9720-f32f-4fe4-ade8-6aeaf3e0354b")
 	)
 	(pad "103" connect roundrect
 		(at 25.475 31.4)
@@ -2230,7 +2231,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "84068072-4d77-41f3-9de4-3bdcb8556172")
+		(uuid "907da200-ea36-4007-b0ff-77964c3db445")
 	)
 	(pad "104" connect roundrect
 		(at 26.325 31.4)
@@ -2240,7 +2241,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "8a649844-73ac-47c7-aff8-e2ce3ae642fd")
+		(uuid "0b1e7a55-ea5f-4138-b6e0-e89550d1840f")
 	)
 	(pad "105" connect roundrect
 		(at 27.175 31.4)
@@ -2250,7 +2251,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "8b3c7138-5fe6-4aa2-aa4f-ade627271424")
+		(uuid "4845c444-a19d-4924-9038-26683f09db76")
 	)
 	(pad "106" connect roundrect
 		(at 28.025 31.38)
@@ -2260,7 +2261,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "30f5b4c4-c4bd-4758-921c-ab516dea8396")
+		(uuid "e5537db7-f76a-453f-91ef-eb2893799782")
 	)
 	(pad "107" connect roundrect
 		(at 28.875 31.36)
@@ -2270,7 +2271,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "4156c368-4877-471d-966d-f5bb15cecfb6")
+		(uuid "68f4dac9-81ea-4687-adf5-a60781048a7b")
 	)
 	(pad "108" connect roundrect
 		(at 29.725 31.34)
@@ -2280,7 +2281,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "bdb52f33-c5f6-44f4-a072-399f94b855c0")
+		(uuid "40bc6f78-fc65-4235-8fb0-bd2fa904e505")
 	)
 	(pad "109" connect roundrect
 		(at 30.575 31.31)
@@ -2290,7 +2291,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "3ba4457f-c9e3-4afd-ad25-3ee7a151552f")
+		(uuid "8dbf3dce-4670-4b82-889b-e5a943fff492")
 	)
 	(pad "110" connect roundrect
 		(at 31.425 31.28)
@@ -2300,7 +2301,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "f0bbc9ca-5cbd-4284-9b23-2a898bdb7fdb")
+		(uuid "74e6ff08-cce3-4178-910a-6447c424f240")
 	)
 	(pad "111" connect roundrect
 		(at 32.275 31.26)
@@ -2310,7 +2311,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "3bd0e037-5f20-45cf-82f1-7fcab1a72cac")
+		(uuid "377daf81-adeb-4c2d-a1df-c1d8114e38f3")
 	)
 	(pad "112" connect roundrect
 		(at 33.125 31.23)
@@ -2320,7 +2321,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "06f6d585-8837-4e6a-a41f-8748464141ed")
+		(uuid "496bfd26-b5df-47ec-bad5-cce997e994a5")
 	)
 	(pad "113" connect roundrect
 		(at 33.975 31.21)
@@ -2330,7 +2331,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "4b8e5957-6f97-4239-94e8-fcd21ef84811")
+		(uuid "2a748164-bab1-4b5d-90e1-11a3840a4e54")
 	)
 	(pad "114" connect roundrect
 		(at 34.825 31.18)
@@ -2340,7 +2341,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "b592ebaa-b8b3-4349-bdd7-70114c9029b3")
+		(uuid "bbef03fd-0d3c-4646-adf6-836c5b9b1794")
 	)
 	(pad "115" connect roundrect
 		(at 35.675 31.15)
@@ -2350,7 +2351,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "89ff3afd-5de6-47d8-9c8e-ef6ac6c319f0")
+		(uuid "a946c77b-3a37-421f-bcc0-3b48f3626e3a")
 	)
 	(pad "116" connect roundrect
 		(at 36.525 31.15)
@@ -2360,7 +2361,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "1d3c3183-ed4a-4853-accb-56d9c6af8038")
+		(uuid "8b62e378-c19b-4493-841c-b2d85d3f57ce")
 	)
 	(pad "117" connect roundrect
 		(at 37.375 31.15)
@@ -2370,7 +2371,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "185117e1-a991-4c15-99cb-1c5164e58601")
+		(uuid "bed69771-50d7-463e-a3cd-0b69505bb6ba")
 	)
 	(pad "118" connect roundrect
 		(at 38.225 31.15)
@@ -2380,7 +2381,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "003cae05-56ab-485e-8668-a89ac0b91034")
+		(uuid "48bb562e-cc18-4fa7-83e1-bb43bc5c8b0c")
 	)
 	(pad "119" connect roundrect
 		(at 39.075 31.15)
@@ -2390,7 +2391,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "b550a9b7-070a-4c79-a548-50938529dea9")
+		(uuid "0d1c0541-53e3-47a6-9b27-c87ae1e4c3fc")
 	)
 	(pad "120" connect roundrect
 		(at 39.925 31.15)
@@ -2400,7 +2401,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "9d15276e-be21-43ad-9778-92e215a6e020")
+		(uuid "be7d7b2f-7414-42e2-bc20-dbf39aefaed1")
 	)
 	(pad "121" connect roundrect
 		(at 40.775 31.15)
@@ -2410,7 +2411,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "c4094888-9798-4b16-b0ce-84a2bdba29db")
+		(uuid "d0e84bd4-16e2-4672-a7cd-4db676095aa8")
 	)
 	(pad "122" connect roundrect
 		(at 41.625 31.15)
@@ -2420,7 +2421,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "1ea7717d-2944-49b9-9ecc-1440cc69918d")
+		(uuid "ac117bfe-7f6c-476d-9071-d61980365a9c")
 	)
 	(pad "123" connect roundrect
 		(at 42.475 31.15)
@@ -2430,7 +2431,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "1ef3c6be-ea87-43a1-b0cb-328e8b1ba244")
+		(uuid "047f102b-4900-4be8-86fd-a8dd620b84cc")
 	)
 	(pad "124" connect roundrect
 		(at 43.325 31.15)
@@ -2440,7 +2441,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "a1f987ef-a6e8-44d6-9faa-02fe9b2ea2eb")
+		(uuid "a0c56bcb-2460-4d9a-b072-3c0352cf7f34")
 	)
 	(pad "125" connect roundrect
 		(at 44.175 31.15)
@@ -2450,7 +2451,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "a22e3955-ae76-427e-8849-2b0b805b217b")
+		(uuid "132bc5bb-b7fb-4f20-8717-99039299a5d9")
 	)
 	(pad "126" connect roundrect
 		(at 45.025 31.15)
@@ -2460,7 +2461,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "98f3c134-c922-4765-8b5d-85552b0ab708")
+		(uuid "d7df9842-9c26-4bb1-8cbd-8565c34236ba")
 	)
 	(pad "127" connect roundrect
 		(at 45.875 31.15)
@@ -2470,7 +2471,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "650f6aa2-13f0-422a-8f96-05e538d0135c")
+		(uuid "83733391-de22-45f3-ace8-3076886893d6")
 	)
 	(pad "128" connect roundrect
 		(at 46.725 31.15)
@@ -2480,7 +2481,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "4b3b9866-e36d-475e-a4c1-b3348c71749d")
+		(uuid "49aa0f83-86d6-46a0-ae83-ebfbdc180ec2")
 	)
 	(pad "129" connect roundrect
 		(at 47.575 31.15)
@@ -2490,7 +2491,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "419a4a33-b04e-401d-9858-42d1e91756e7")
+		(uuid "28de6300-b6df-457a-bc2a-b098204b7e5d")
 	)
 	(pad "130" connect roundrect
 		(at 48.425 31.15)
@@ -2500,7 +2501,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "466e4874-3c44-4545-8b98-e613ac7e9f7c")
+		(uuid "94a39f30-a320-4ee8-a9df-43ffb6e7ca4d")
 	)
 	(pad "131" connect roundrect
 		(at 49.275 31.15)
@@ -2510,7 +2511,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "a9a63f99-5fd8-4fe1-88f1-f07cc7504f96")
+		(uuid "e5049012-66f6-4e15-ac0e-8763c43b0e48")
 	)
 	(pad "132" connect roundrect
 		(at 50.125 31.15)
@@ -2520,7 +2521,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "7ad7ebdc-eadb-4e3a-b3a5-e8f5fbf9a5e3")
+		(uuid "f2e6e038-4804-46e8-821c-c2231cc639ea")
 	)
 	(pad "133" connect roundrect
 		(at 50.975 31.15)
@@ -2530,7 +2531,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "9d7caeeb-6bac-4150-9cc1-c1f9273aa597")
+		(uuid "ebee6a63-798e-4367-ad0a-abcca3c59fb7")
 	)
 	(pad "134" connect roundrect
 		(at 51.825 31.15)
@@ -2540,7 +2541,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "a907311c-95dd-4662-b125-96bf54642268")
+		(uuid "69b049d0-4e1c-4ed4-8a52-d83a67e13f58")
 	)
 	(pad "135" connect roundrect
 		(at 52.675 31.15)
@@ -2550,7 +2551,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "7f6d434c-1286-40e3-a14a-8b734e593962")
+		(uuid "ea445cf8-1b35-4f26-b17c-235d36e4bde9")
 	)
 	(pad "136" connect roundrect
 		(at 53.525 31.15)
@@ -2560,7 +2561,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "8bdb4fa5-9d30-473e-a6d8-c50b370599e6")
+		(uuid "7ba091ab-a52a-45ee-b52c-f66a1b036f39")
 	)
 	(pad "137" connect roundrect
 		(at 54.375 31.15)
@@ -2570,7 +2571,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "f47a8977-dee8-4569-969b-39667d2cdba5")
+		(uuid "87c60ad6-e71e-4ba6-9ad0-28b86cfc308f")
 	)
 	(pad "138" connect roundrect
 		(at 55.225 31.15)
@@ -2580,7 +2581,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "a07f68fc-507d-46c1-990d-933df9acc548")
+		(uuid "1acf9f14-2567-4694-87ce-2dec261d8f2c")
 	)
 	(pad "139" connect roundrect
 		(at 56.075 31.15)
@@ -2590,7 +2591,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "0c9c6252-3056-4aa1-86d9-741a59cb05a4")
+		(uuid "409a6146-9a13-4d24-b37d-1a43f9cab55d")
 	)
 	(pad "140" connect roundrect
 		(at 56.925 31.15)
@@ -2600,7 +2601,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "ba093204-ece3-4710-b4a4-4e2c3d256747")
+		(uuid "a43051bf-5179-4503-adbb-fce831021020")
 	)
 	(pad "141" connect roundrect
 		(at 57.775 31.15)
@@ -2610,7 +2611,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "2476cce4-3f4f-4d17-aaa7-ae56026d24c8")
+		(uuid "2420a875-87d2-4e73-9f47-8351e3c04e7b")
 	)
 	(pad "142" connect roundrect
 		(at 58.625 31.15)
@@ -2620,7 +2621,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "1b9f7d7e-d2d1-4d97-a70f-5bd283c53337")
+		(uuid "8e852b15-1cf1-422f-a17a-08996829ec29")
 	)
 	(pad "143" connect roundrect
 		(at 59.475 31.15)
@@ -2630,7 +2631,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "31a79898-7479-4178-8070-e4c8c80e5767")
+		(uuid "525d8fa0-a08c-4077-a168-74cae77aa144")
 	)
 	(pad "144" connect roundrect
 		(at 60.325 31.15)
@@ -2640,7 +2641,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "cf39cfca-31f6-4698-8d1b-f1bca1b5d7dd")
+		(uuid "76a49eb3-d047-4326-976a-535907d961d7")
 	)
 	(pad "145" connect roundrect
 		(at -66.325 31.15)
@@ -2650,7 +2651,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "83965f28-fade-4f2a-8d29-ba9788a18c93")
+		(uuid "b02fd21a-e455-4b23-bbf6-ac99d5873f22")
 	)
 	(pad "146" connect roundrect
 		(at -65.475 31.15)
@@ -2660,7 +2661,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "3a46b26f-397e-4f8d-8ab2-23435cf116ba")
+		(uuid "d4636f93-3b50-40dd-8ebe-14ba860fc557")
 	)
 	(pad "147" connect roundrect
 		(at -64.625 31.15)
@@ -2670,7 +2671,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "d55b1ba1-cc80-45ca-9cee-bf063922d835")
+		(uuid "ae175459-dda9-4e96-943e-35916ec19047")
 	)
 	(pad "148" connect roundrect
 		(at -63.775 31.15)
@@ -2680,7 +2681,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "13644c76-856d-4e1d-aede-22570ce00298")
+		(uuid "2b3306ba-6f89-4db6-9523-0e279a011e19")
 	)
 	(pad "149" connect roundrect
 		(at -62.925 31.15)
@@ -2690,7 +2691,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "ec1bc841-7da0-4f80-8067-e0dc4f850640")
+		(uuid "970554e0-41f9-4b18-bc29-f99a987241c6")
 	)
 	(pad "150" connect roundrect
 		(at -62.075 31.15)
@@ -2700,7 +2701,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "2cf15b2b-2c8d-487a-8fc0-4de6eecb3db5")
+		(uuid "c622761d-ccaf-4d61-86c0-9bda7bb8d584")
 	)
 	(pad "151" connect roundrect
 		(at -61.225 31.15)
@@ -2710,7 +2711,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "fcfd8b65-9059-4269-8b41-67a7cf697b90")
+		(uuid "2fe54c9a-cc10-40c2-b3b9-fb0d9e2b068c")
 	)
 	(pad "152" connect roundrect
 		(at -60.375 31.15)
@@ -2720,7 +2721,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "7f884785-6677-44d3-a09c-1de881669b85")
+		(uuid "5ddc93ea-1d37-4797-87ee-5ed0652b0586")
 	)
 	(pad "153" connect roundrect
 		(at -59.525 31.15)
@@ -2730,7 +2731,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "62d3a838-1384-4cb8-a367-c822c9278412")
+		(uuid "329ba5a6-2ede-4895-bc37-8d8bf3cab4e6")
 	)
 	(pad "154" connect roundrect
 		(at -58.675 31.15)
@@ -2740,7 +2741,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "1f5ae88e-d68f-47ef-8c91-5eff61ce8af1")
+		(uuid "a1213031-2c6e-4014-90d7-d394007976d5")
 	)
 	(pad "155" connect roundrect
 		(at -57.825 31.15)
@@ -2750,7 +2751,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "60b2256d-6472-4027-981c-3ad63817b079")
+		(uuid "1607b0a9-43e6-4aa1-a152-b8f37161cfdf")
 	)
 	(pad "156" connect roundrect
 		(at -56.975 31.15)
@@ -2760,7 +2761,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "0d3dead2-4f8a-46b5-a9b4-1cedeac23840")
+		(uuid "df7a2042-0be7-4504-b2da-a5fe03752fb7")
 	)
 	(pad "157" connect roundrect
 		(at -56.125 31.15)
@@ -2770,7 +2771,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "4ee6fbf2-5aee-4c61-a212-6a0d6705aedc")
+		(uuid "4cb926b6-0b58-4139-b58e-26143f585285")
 	)
 	(pad "158" connect roundrect
 		(at -55.275 31.15)
@@ -2780,7 +2781,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "afa87ff4-44aa-4a8c-bbf3-c101ab0d2683")
+		(uuid "18e0fdb6-7cf2-4e15-8890-0d8b07268f5f")
 	)
 	(pad "159" connect roundrect
 		(at -54.425 31.15)
@@ -2790,7 +2791,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "3115fff7-013f-4429-8b5b-e166dbc1ecc8")
+		(uuid "140fafe2-5a9a-47e9-851b-0aec70af048d")
 	)
 	(pad "160" connect roundrect
 		(at -53.575 31.15)
@@ -2800,7 +2801,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "d8e7a2c0-4b54-42c3-8765-a786d6ca886b")
+		(uuid "5cd820cd-2284-45a4-9d4a-0f2fcdeb464c")
 	)
 	(pad "161" connect roundrect
 		(at -52.725 31.15)
@@ -2810,7 +2811,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "dfa88a55-2ac5-407e-968c-1a511fe34101")
+		(uuid "b902a4aa-7f4b-4207-b3df-72391c9fae08")
 	)
 	(pad "162" connect roundrect
 		(at -51.875 31.15)
@@ -2820,7 +2821,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "235e0c7c-f56f-4ed8-9b19-a710ac439187")
+		(uuid "f2d2945a-c8fe-4b44-bab0-28df5f65c8c1")
 	)
 	(pad "163" connect roundrect
 		(at -51.025 31.15)
@@ -2830,7 +2831,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "c400e745-2c1e-4a38-8011-3cb2860aaaf4")
+		(uuid "afc63836-535c-41ca-b405-4ff1085afd39")
 	)
 	(pad "164" connect roundrect
 		(at -50.175 31.15)
@@ -2840,7 +2841,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "5f869670-adcd-454d-92a3-7ffaa2d19e91")
+		(uuid "5486fcac-d606-491d-8a9e-83a1662b6b74")
 	)
 	(pad "165" connect roundrect
 		(at -49.325 31.15)
@@ -2850,7 +2851,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "96c40254-0756-47b8-9082-1f684973984b")
+		(uuid "91978343-405b-4183-8d0f-e08c7ae19948")
 	)
 	(pad "166" connect roundrect
 		(at -48.475 31.15)
@@ -2860,7 +2861,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "c58e7133-8d06-47ce-aaf2-dc7870be61d2")
+		(uuid "5eb04ec8-554c-480e-a976-8cb26d32b956")
 	)
 	(pad "167" connect roundrect
 		(at -47.625 31.15)
@@ -2870,7 +2871,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "927d7c7c-9554-46e2-b4d9-031186000777")
+		(uuid "fb9b60a7-2498-4413-bdfc-c85dfd9d151c")
 	)
 	(pad "168" connect roundrect
 		(at -46.775 31.15)
@@ -2880,7 +2881,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "7c0a1da3-2585-41ba-be14-22fccc459f55")
+		(uuid "7a9bdf92-281c-423b-a42c-e48a72d7089c")
 	)
 	(pad "169" connect roundrect
 		(at -45.925 31.15)
@@ -2890,7 +2891,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "8dbebd21-fff7-409f-bc64-8a84147c9e6b")
+		(uuid "61474d3c-0423-4be5-8274-347dcf091bf5")
 	)
 	(pad "170" connect roundrect
 		(at -45.075 31.15)
@@ -2900,7 +2901,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "1cbefe6a-85ae-4b54-90c1-2e8b4123c1f7")
+		(uuid "136bd21e-338f-49c0-8a1e-aa7bfde11c68")
 	)
 	(pad "171" connect roundrect
 		(at -44.225 31.15)
@@ -2910,7 +2911,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "d23f3e3d-bb10-44bf-9e77-8ecf4d0a1322")
+		(uuid "b2fc408f-130f-4197-8187-8ff7c9dab905")
 	)
 	(pad "172" connect roundrect
 		(at -43.375 31.15)
@@ -2920,7 +2921,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "a1b87818-8434-45e4-8b4a-43dc2d3c3a57")
+		(uuid "1e51d79a-0de4-4e3e-a19d-59744c60f757")
 	)
 	(pad "173" connect roundrect
 		(at -42.525 31.15)
@@ -2930,7 +2931,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "e6a44557-cd9d-443d-a767-b1e27dee90c1")
+		(uuid "1e3fb9e3-f864-4146-aa92-2e5fa1ef6295")
 	)
 	(pad "174" connect roundrect
 		(at -41.675 31.15)
@@ -2940,7 +2941,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "b795d32d-e287-4fdb-a40e-765cda4407c5")
+		(uuid "f2edf523-1509-4c6f-9c37-3980d15c8d42")
 	)
 	(pad "175" connect roundrect
 		(at -40.825 31.15)
@@ -2950,7 +2951,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "7a65dfff-f093-4dc4-95e8-cc451b7b40b9")
+		(uuid "daa394a3-06a5-4381-a5fb-5ee8143a93e8")
 	)
 	(pad "176" connect roundrect
 		(at -39.975 31.15)
@@ -2960,7 +2961,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "4d23d9d3-ef36-474a-b511-3b8235317f18")
+		(uuid "d2deb239-8892-43f5-a20b-950f86f586f5")
 	)
 	(pad "177" connect roundrect
 		(at -39.125 31.15)
@@ -2970,7 +2971,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "7eddbf7e-cadf-4507-aa2e-54eff0bcc648")
+		(uuid "2edbc589-0513-45c9-a734-34c274589326")
 	)
 	(pad "178" connect roundrect
 		(at -38.275 31.15)
@@ -2980,7 +2981,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "f7870c1e-5ea3-43f6-b277-55765a65a8db")
+		(uuid "42493b4e-431d-45d0-8a30-b28aecd71a71")
 	)
 	(pad "179" connect roundrect
 		(at -37.425 31.15)
@@ -2990,7 +2991,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "3e7c59d6-6ae7-4366-9bae-8edaf2044db8")
+		(uuid "63ef81ca-2c68-4ac6-8d1e-8e8e2f44d174")
 	)
 	(pad "180" connect roundrect
 		(at -36.575 31.15)
@@ -3000,7 +3001,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "be2ecd89-28c3-40d6-be85-4a9838eba3d9")
+		(uuid "8642cb01-832b-4892-bb09-844c06a9dbc5")
 	)
 	(pad "181" connect roundrect
 		(at -35.725 31.15)
@@ -3010,7 +3011,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "2516f67b-691e-4ccc-99e9-74f0a4cc0c8e")
+		(uuid "663015d4-ba3a-454b-ae3f-d039e6c0d553")
 	)
 	(pad "182" connect roundrect
 		(at -34.875 31.17)
@@ -3020,7 +3021,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "8bf90220-ba79-4572-bbab-fd7a9ccb3269")
+		(uuid "873692ac-14ca-4796-b4ae-8357336fa6dd")
 	)
 	(pad "183" connect roundrect
 		(at -34.025 31.19)
@@ -3030,7 +3031,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "cd1e7ba1-7b34-448e-8f0a-43763b1a2992")
+		(uuid "7677e1bc-004b-430c-8343-e0fe42eb916d")
 	)
 	(pad "184" connect roundrect
 		(at -33.175 31.21)
@@ -3040,7 +3041,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "02ce4201-d7f6-4595-bc0d-ddea212fb80a")
+		(uuid "68fd890d-a43c-4edd-b3fd-14a1fa246d90")
 	)
 	(pad "185" connect roundrect
 		(at -32.325 31.24)
@@ -3050,7 +3051,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "0f9d5f40-7e47-473c-9bfb-f10f540ec35b")
+		(uuid "cecdfb4f-1d61-4008-9ad1-f5789e98f1b8")
 	)
 	(pad "186" connect roundrect
 		(at -31.475 31.27)
@@ -3060,7 +3061,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "a5d2cdef-9e51-493c-9bba-fd544325d52f")
+		(uuid "d5910d56-1f7a-4492-a71d-b98c35e9a873")
 	)
 	(pad "187" connect roundrect
 		(at -30.625 31.3)
@@ -3070,7 +3071,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "8403d745-39f2-43a0-9024-bf45537b38d0")
+		(uuid "fecef228-8995-406f-a3fc-a65299127275")
 	)
 	(pad "188" connect roundrect
 		(at -29.775 31.32)
@@ -3080,7 +3081,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "44a7cf2c-9672-4719-b312-5c9c65eeb9fe")
+		(uuid "bbc5e534-15a5-418a-8381-d563b0ae4fef")
 	)
 	(pad "189" connect roundrect
 		(at -28.915 31.35)
@@ -3090,7 +3091,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "d6ff34e6-b81b-46d2-9cc6-9f7474aa5c81")
+		(uuid "605722c4-6e90-4c95-842a-9b7724dd86ad")
 	)
 	(pad "190" connect roundrect
 		(at -28.065 31.38)
@@ -3100,7 +3101,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "50d66edf-a2a2-40b3-99ee-3b8fe3411d63")
+		(uuid "6468a820-510e-4f55-adf4-2db5f24bcc86")
 	)
 	(pad "191" connect roundrect
 		(at -27.225 31.4)
@@ -3110,7 +3111,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "f80adcf0-8170-44d7-97b2-83722ffba0ca")
+		(uuid "356a7452-409f-4e42-97b7-a96c37227259")
 	)
 	(pad "192" connect roundrect
 		(at -26.375 31.4)
@@ -3120,7 +3121,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "d309f9e1-c019-412a-8a04-f67488b25aa0")
+		(uuid "587fea06-78a4-4f38-84e9-1cc547969879")
 	)
 	(pad "193" connect roundrect
 		(at -25.525 31.4)
@@ -3130,7 +3131,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "d102189f-33c2-4dbd-bc1f-8e0eb7368941")
+		(uuid "6db87289-1660-46cb-af0e-069de30b8a59")
 	)
 	(pad "194" connect roundrect
 		(at -24.675 31.4)
@@ -3140,7 +3141,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "cc568274-80a2-476a-aeb4-cae9e998a9d5")
+		(uuid "c6ee46db-7d0e-4adc-963a-d3a018fbaadf")
 	)
 	(pad "195" connect roundrect
 		(at -23.825 31.4)
@@ -3150,7 +3151,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "376cdd1f-f99e-4f12-b874-2542b3bfb053")
+		(uuid "a58e8514-40c2-4c03-8edf-4cc365a2f91b")
 	)
 	(pad "196" connect roundrect
 		(at -22.975 31.4)
@@ -3160,7 +3161,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "22dc9ec0-f6a9-49ae-9320-ea581173464f")
+		(uuid "1736acbc-396d-4cdb-9f08-0ae58ce39821")
 	)
 	(pad "197" connect roundrect
 		(at -22.125 31.4)
@@ -3170,7 +3171,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "f1135201-de04-4a83-96c0-6b33c823e7c9")
+		(uuid "bdcc2429-18e1-412c-9e76-e20350dbd50c")
 	)
 	(pad "198" connect roundrect
 		(at -21.275 31.4)
@@ -3180,7 +3181,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "471535e0-ac28-4e10-b704-fa898d85dd1b")
+		(uuid "f29a298d-011f-4842-b943-82df73a9cc4a")
 	)
 	(pad "199" connect roundrect
 		(at -20.425 31.4)
@@ -3190,7 +3191,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "86c3939f-acc3-4959-9da6-35f0e1323425")
+		(uuid "981b9e20-ae81-4aa1-96f4-62992688899f")
 	)
 	(pad "200" connect roundrect
 		(at -19.575 31.4)
@@ -3200,7 +3201,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "42911c56-b5d8-4d01-a0d4-5e86d490dc8a")
+		(uuid "3b13bde9-3814-4a0f-bede-7fb2ef44524b")
 	)
 	(pad "201" connect roundrect
 		(at -18.725 31.4)
@@ -3210,7 +3211,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "363f51fc-c9ee-4f16-b2f3-e5243a07d24c")
+		(uuid "7f59eede-d5bc-42ee-b729-55ef47508ae6")
 	)
 	(pad "202" connect roundrect
 		(at -17.875 31.4)
@@ -3220,7 +3221,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "e6efffaf-65c0-4cbe-bb13-dd14db76c3ef")
+		(uuid "aad39832-afa3-4a33-8c47-d798e2829f66")
 	)
 	(pad "203" connect roundrect
 		(at -17.025 31.4)
@@ -3230,7 +3231,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "45a9eb79-013e-4cb1-b630-217685aedf0e")
+		(uuid "8fd49c36-bde1-4cf0-8d99-7d2b388109d6")
 	)
 	(pad "204" connect roundrect
 		(at -16.175 31.4)
@@ -3240,7 +3241,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "02657008-937c-4349-8bc1-11ce4e48ca12")
+		(uuid "d5ff7756-3ccc-4d59-a1d2-9308765defb8")
 	)
 	(pad "205" connect roundrect
 		(at -15.325 31.4)
@@ -3250,7 +3251,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "9152b22b-226c-4056-94fe-6fa74e28fe37")
+		(uuid "58d9dafa-f68b-4156-a1f7-c57bffb940ef")
 	)
 	(pad "206" connect roundrect
 		(at -14.475 31.4)
@@ -3260,7 +3261,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "a87902f8-812b-4550-be63-8e27a1ed40cb")
+		(uuid "c77a4600-7a06-416b-9e10-b66c2919a0c4")
 	)
 	(pad "207" connect roundrect
 		(at -13.625 31.4)
@@ -3270,7 +3271,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "1ac44fa6-9306-4cad-9398-c2d7cb733ff8")
+		(uuid "29f3678d-e095-471a-b0cd-d290a5859861")
 	)
 	(pad "208" connect roundrect
 		(at -12.775 31.4)
@@ -3280,7 +3281,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "c7c701e6-0d52-4223-9a5d-0c9b609ec329")
+		(uuid "6a6ba414-00ab-45e8-b9f4-695421da1183")
 	)
 	(pad "209" connect roundrect
 		(at -11.925 31.4)
@@ -3290,7 +3291,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "90e93361-d90b-4e54-8fa4-9c35ffb5f8d8")
+		(uuid "0bcf9f05-a1ad-4500-ace5-728163533e32")
 	)
 	(pad "210" connect roundrect
 		(at -11.075 31.4)
@@ -3300,7 +3301,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "f9922542-7080-47e5-8f99-35c7eac01995")
+		(uuid "8536604a-2bd3-4dfa-9bd6-df55e2fe0fc4")
 	)
 	(pad "211" connect roundrect
 		(at -10.225 31.4)
@@ -3310,7 +3311,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "5075326d-90c4-4397-a719-215b183325e9")
+		(uuid "a94f5aad-8ad9-44f9-841b-ef70a3305daa")
 	)
 	(pad "212" connect roundrect
 		(at -9.375 31.4)
@@ -3320,7 +3321,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "9a41d21a-7f04-4cf0-940d-a0a07fdebfa3")
+		(uuid "c0cdd1e0-9398-4e80-9b8e-7258dde6ae20")
 	)
 	(pad "213" connect roundrect
 		(at -8.525 31.4)
@@ -3330,7 +3331,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "02dd030b-75b2-4798-b438-42a0cb326735")
+		(uuid "53c7b664-a38d-45ec-bc4f-b73f107972f0")
 	)
 	(pad "214" connect roundrect
 		(at -7.675 31.4)
@@ -3340,7 +3341,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "f9c392d2-f9ac-49f1-9157-4802391dd547")
+		(uuid "4ea90478-b97f-41df-a756-d3ab4cab5a1c")
 	)
 	(pad "215" connect roundrect
 		(at -6.825 31.4)
@@ -3350,7 +3351,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "149b8082-7a55-4c02-8965-a20e1da815e7")
+		(uuid "9f171701-bc22-4f77-8ecc-4eef6bdfb509")
 	)
 	(pad "216" connect roundrect
 		(at -5.975 31.4)
@@ -3360,7 +3361,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "3c2bb61f-98a9-44ca-9a1e-295abfe8e8bf")
+		(uuid "a876918f-ab7d-4b22-b0d8-a59d81b6ddbf")
 	)
 	(pad "217" connect roundrect
 		(at -5.125 31.4)
@@ -3370,7 +3371,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "c0fa7d71-8d96-4246-a3e6-8f5cb599bc31")
+		(uuid "06ce3f65-be37-4eab-89e5-a9dadc9cd8ab")
 	)
 	(pad "218" connect roundrect
 		(at -4.275 31.4)
@@ -3380,7 +3381,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "094f21b5-f431-4498-bf3f-d54a12a4b3e1")
+		(uuid "830cec14-961f-45e4-a8fc-5b4cb48772b6")
 	)
 	(pad "219" connect roundrect
 		(at -3.425 31.4)
@@ -3390,7 +3391,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "3bf2285f-7ffa-4fe0-af76-615461a15ab4")
+		(uuid "93ed170b-6e6e-4a65-b137-dfc7eeb338a5")
 	)
 	(pad "220" connect roundrect
 		(at -2.575 31.4)
@@ -3400,7 +3401,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "991ce343-76db-41f3-a447-a38ef59326e3")
+		(uuid "d528ca74-7823-4fce-bc3d-40531d023f7b")
 	)
 	(pad "221" connect roundrect
 		(at -1.725 31.4)
@@ -3410,7 +3411,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "1b836b90-362e-464e-a37d-2c2b2306c331")
+		(uuid "7ae212ed-84b0-4a2a-b906-5cffb42b32e1")
 	)
 	(pad "222" connect roundrect
 		(at 4.225 31.4)
@@ -3420,7 +3421,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "773b237b-7c98-4dd2-b63b-0f4c162cc15a")
+		(uuid "943973fc-b42f-4c4a-81d1-6e8e5281994f")
 	)
 	(pad "223" connect roundrect
 		(at 5.075 31.4)
@@ -3430,7 +3431,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "0ee1fd57-12b3-4143-a4d8-1b57471a997c")
+		(uuid "307d6aaf-ccc6-448f-bddc-c70ae315cef3")
 	)
 	(pad "224" connect roundrect
 		(at 5.925 31.4)
@@ -3440,7 +3441,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "5c928457-bd68-4cb7-b50b-f18b91426e3b")
+		(uuid "b3054b35-0033-495a-ac04-9fe3ac6753f6")
 	)
 	(pad "225" connect roundrect
 		(at 6.775 31.4)
@@ -3450,7 +3451,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "8b43963c-e134-4b42-93fb-a05667a0c06e")
+		(uuid "c51e280c-f179-47ab-8de5-2d1a3c26a8ea")
 	)
 	(pad "226" connect roundrect
 		(at 7.625 31.4)
@@ -3460,7 +3461,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "13d55829-fc58-4a38-9a96-9cbc0e1a08e1")
+		(uuid "fd2c4024-db3b-4c8b-8836-2a585bdbfc0b")
 	)
 	(pad "227" connect roundrect
 		(at 8.475 31.4)
@@ -3470,7 +3471,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "44b3ab55-cb1d-4062-bbbe-79c004ba6eb1")
+		(uuid "0eb1371c-feb2-4950-8351-66209e863e28")
 	)
 	(pad "228" connect roundrect
 		(at 9.325 31.4)
@@ -3480,7 +3481,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "2ba1c577-ff05-437c-b4f3-54265ae7e6cd")
+		(uuid "67b369d3-f6d6-485e-b81a-4428e7efcfcb")
 	)
 	(pad "229" connect roundrect
 		(at 10.175 31.4)
@@ -3490,7 +3491,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "69f4df3b-6601-4202-9af2-d286ccb8f021")
+		(uuid "e5905800-f67e-464f-a8d4-f48d3d0b6e92")
 	)
 	(pad "230" connect roundrect
 		(at 11.025 31.4)
@@ -3500,7 +3501,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "a4bc27b5-6953-4fed-b9de-c715dac0a5f5")
+		(uuid "a25835f5-c4f6-4969-8b0a-eb796db37a7c")
 	)
 	(pad "231" connect roundrect
 		(at 11.875 31.4)
@@ -3510,7 +3511,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "0b808eca-425d-4f33-bacf-3d02e128006f")
+		(uuid "c783fa70-5761-4682-9b62-4765b2a2bcb8")
 	)
 	(pad "232" connect roundrect
 		(at 12.725 31.4)
@@ -3520,7 +3521,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "a20feb44-e856-42a9-8a9c-b82d0c55af22")
+		(uuid "e09aeacb-ba91-43ff-adb4-d75a4ea32593")
 	)
 	(pad "233" connect roundrect
 		(at 13.575 31.4)
@@ -3530,7 +3531,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "d2f490f3-19e4-4a60-a53f-30cf86f11425")
+		(uuid "43072a62-56ec-4c7d-9c07-66d9c2feac01")
 	)
 	(pad "234" connect roundrect
 		(at 14.425 31.4)
@@ -3540,7 +3541,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "4bbe0a33-73c1-4a36-b3e6-dc2a7b5a4278")
+		(uuid "6975cec8-4f4d-4489-b489-66aa97bdd2be")
 	)
 	(pad "235" connect roundrect
 		(at 15.275 31.4)
@@ -3550,7 +3551,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "8a600453-7304-4e32-98a6-2ab308842a86")
+		(uuid "5ea11d54-4d14-48e9-b36a-bf5a01188a91")
 	)
 	(pad "236" connect roundrect
 		(at 16.125 31.4)
@@ -3560,7 +3561,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "67d20978-4f3b-42d5-b47f-c20f7a170a45")
+		(uuid "af9d1dd8-2256-4ca3-9ecd-8b35fe92b693")
 	)
 	(pad "237" connect roundrect
 		(at 16.975 31.4)
@@ -3570,7 +3571,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "eb1364a7-a441-4044-a477-7acff494c4e7")
+		(uuid "12bbe7e4-6aae-4c63-baf8-00afe7b84729")
 	)
 	(pad "238" connect roundrect
 		(at 17.825 31.4)
@@ -3580,7 +3581,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "b9634c9a-e2e7-42da-919e-4aad44967ea6")
+		(uuid "7ab5c06c-2700-4bc3-a5e1-a284b177b509")
 	)
 	(pad "239" connect roundrect
 		(at 18.675 31.4)
@@ -3590,7 +3591,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "def0c26f-2667-4c13-a6ca-20d69bb316bd")
+		(uuid "cc6cac6c-594d-4429-808e-398c4ea51168")
 	)
 	(pad "240" connect roundrect
 		(at 19.525 31.4)
@@ -3600,7 +3601,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "671fdce6-5899-4ddd-b904-6745010b944b")
+		(uuid "28f23070-0126-47dc-8084-1f9fc342e54f")
 	)
 	(pad "241" connect roundrect
 		(at 20.375 31.4)
@@ -3610,7 +3611,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "d336e262-7d68-4c2d-af74-82c7a9bc7643")
+		(uuid "13580169-6134-4872-a6bc-020651ec947e")
 	)
 	(pad "242" connect roundrect
 		(at 21.225 31.4)
@@ -3620,7 +3621,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "1a6e7af5-3c6d-4c4c-81cb-15af299f4b7b")
+		(uuid "ce85cc02-e1ff-4311-9220-a6a954c2cf43")
 	)
 	(pad "243" connect roundrect
 		(at 22.075 31.4)
@@ -3630,7 +3631,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "5ccce476-75d0-4c20-a59c-8dc7b0b55261")
+		(uuid "7554831e-8db4-4716-876b-fa1e94bb1983")
 	)
 	(pad "244" connect roundrect
 		(at 22.925 31.4)
@@ -3640,7 +3641,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "b0804086-f49a-4283-b407-9dd3b43b9cec")
+		(uuid "5dcf7403-0524-4f04-9e16-a0483498721f")
 	)
 	(pad "245" connect roundrect
 		(at 23.775 31.4)
@@ -3650,7 +3651,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "25423cef-2ef0-4bb8-a3bd-153c8d58c917")
+		(uuid "b6e364a1-b090-4f6d-9541-432baaba7dd3")
 	)
 	(pad "246" connect roundrect
 		(at 24.625 31.4)
@@ -3660,7 +3661,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "183fe66c-f0ef-4908-8709-b68317f4070e")
+		(uuid "fed98497-1814-482c-9a4a-7135756676fe")
 	)
 	(pad "247" connect roundrect
 		(at 25.475 31.4)
@@ -3670,7 +3671,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "a9634a43-ad30-4483-8bc9-ed8d0a26d3d6")
+		(uuid "b6692113-9cb6-4820-85a3-2866856e75db")
 	)
 	(pad "248" connect roundrect
 		(at 26.325 31.4)
@@ -3680,7 +3681,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "ace37817-9718-4489-b015-7784b3927d29")
+		(uuid "ddd339d3-8385-499c-894c-f8d4054136e7")
 	)
 	(pad "249" connect roundrect
 		(at 27.175 31.4)
@@ -3690,7 +3691,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "2c97bfc7-88f5-402c-b022-9bbacc87693e")
+		(uuid "3acc0900-1e6d-488d-b0a5-dfaf15f6dc7b")
 	)
 	(pad "250" connect roundrect
 		(at 28.025 31.38)
@@ -3700,7 +3701,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "7514a227-7e6f-41a3-9823-e2d2dc05008e")
+		(uuid "9da25988-6158-493e-a95a-639f35d32e21")
 	)
 	(pad "251" connect roundrect
 		(at 28.875 31.36)
@@ -3710,7 +3711,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "5c525f46-c7cc-41f2-8454-4160e257d790")
+		(uuid "7189bddd-7e98-4b30-b01f-69c40ed0db14")
 	)
 	(pad "252" connect roundrect
 		(at 29.725 31.34)
@@ -3720,7 +3721,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "928da134-413e-46d7-87aa-b60e544fae4e")
+		(uuid "5efa8bbf-0e99-4ec8-970e-f8d9123b51f6")
 	)
 	(pad "253" connect roundrect
 		(at 30.575 31.31)
@@ -3730,7 +3731,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "899160d4-3af7-4d81-85fc-a500289a881f")
+		(uuid "6f3500d0-1da3-4738-9d8e-2623801913f6")
 	)
 	(pad "254" connect roundrect
 		(at 31.425 31.28)
@@ -3740,7 +3741,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "5ead02ed-0641-44d7-a4a2-2651aeaa4556")
+		(uuid "6ace4819-aec7-4ad4-b38f-f2014d46c70c")
 	)
 	(pad "255" connect roundrect
 		(at 32.275 31.26)
@@ -3750,7 +3751,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "9965134b-013d-445e-bf45-bae7911e59ec")
+		(uuid "3bcebe3c-9ebd-4073-80c3-614b247550bc")
 	)
 	(pad "256" connect roundrect
 		(at 33.125 31.23)
@@ -3760,7 +3761,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "ebe573f5-e8e0-42c3-89b4-e8994c94c76b")
+		(uuid "6d615ed8-1d27-4d59-a9b3-1d275c891030")
 	)
 	(pad "257" connect roundrect
 		(at 33.975 31.21)
@@ -3770,7 +3771,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "fa7e7fe7-6a9f-479b-ba7c-d93b370d57d8")
+		(uuid "74f70a76-6dcb-44eb-a029-624fa8c8751f")
 	)
 	(pad "258" connect roundrect
 		(at 34.825 31.18)
@@ -3780,7 +3781,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "c7a9d49d-6344-4ece-b48c-20ac0a1f2329")
+		(uuid "6dc2afb8-da8c-4afc-a1ba-6d9dcb8b6f18")
 	)
 	(pad "259" connect roundrect
 		(at 35.675 31.15)
@@ -3790,7 +3791,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "e1d0501b-e28e-4c94-81ac-e935260319ca")
+		(uuid "88c33bdb-3084-4f06-8287-5f8a415b299f")
 	)
 	(pad "260" connect roundrect
 		(at 36.525 31.15)
@@ -3800,7 +3801,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "60720348-f636-4fae-a6bf-84987036b262")
+		(uuid "fecf837d-d64a-4fbc-97d5-d712b0c211fa")
 	)
 	(pad "261" connect roundrect
 		(at 37.375 31.15)
@@ -3810,7 +3811,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "b7fa2eec-9265-47b0-a38a-1d302ee252a1")
+		(uuid "bc1e001d-0230-4b40-ad03-b5bc7d7f3aac")
 	)
 	(pad "262" connect roundrect
 		(at 38.225 31.15)
@@ -3820,7 +3821,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "ce1cbff2-9268-445d-b07c-bbea47067a3b")
+		(uuid "584dc6b0-f1ac-47a8-af8f-4be6e0dec15f")
 	)
 	(pad "263" connect roundrect
 		(at 39.075 31.15)
@@ -3830,7 +3831,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "c6aeb310-6586-44d4-9b4d-e6299181a8e1")
+		(uuid "3aef1e69-a66f-4c3c-9d30-b7b6f63dac21")
 	)
 	(pad "264" connect roundrect
 		(at 39.925 31.15)
@@ -3840,7 +3841,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "dcfd2752-5757-4f27-81af-1798e2bf66c6")
+		(uuid "9a5a4b23-539f-499b-be58-56cc585e4f8f")
 	)
 	(pad "265" connect roundrect
 		(at 40.775 31.15)
@@ -3850,7 +3851,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "5c2a5148-109e-4698-b729-7634304a35bf")
+		(uuid "082954b1-7284-4091-bd3d-bb0b490d0007")
 	)
 	(pad "266" connect roundrect
 		(at 41.625 31.15)
@@ -3860,7 +3861,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "5f5a354a-8910-4263-9515-f8d5f0b48722")
+		(uuid "aaff9c36-069d-4a55-ac7d-f3111709b70f")
 	)
 	(pad "267" connect roundrect
 		(at 42.475 31.15)
@@ -3870,7 +3871,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "2e83b70c-07f2-48ac-a79a-595448c8b4c4")
+		(uuid "036cfc50-ce62-4946-b5dc-eefe54d341ed")
 	)
 	(pad "268" connect roundrect
 		(at 43.325 31.15)
@@ -3880,7 +3881,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "2094160c-7111-4631-aca4-da567cca7117")
+		(uuid "5fea843a-7f1f-43bf-9790-4c0fade254d0")
 	)
 	(pad "269" connect roundrect
 		(at 44.175 31.15)
@@ -3890,7 +3891,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "362e86cc-caa8-4b38-bca2-28ef4af91a38")
+		(uuid "ea712ba8-52dd-4ac4-a48f-66acb91eebd1")
 	)
 	(pad "270" connect roundrect
 		(at 45.025 31.15)
@@ -3900,7 +3901,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "4d2b865f-80ff-452e-bbfd-a8f549bfdee6")
+		(uuid "261f0e1c-c236-4213-aa7b-01857f1c714c")
 	)
 	(pad "271" connect roundrect
 		(at 45.875 31.15)
@@ -3910,7 +3911,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "57afbc6e-0163-418a-98b4-d3deffeda964")
+		(uuid "18458096-e640-45b1-93b3-f7c4e7ac9026")
 	)
 	(pad "272" connect roundrect
 		(at 46.725 31.15)
@@ -3920,7 +3921,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "5e4c4a79-3a9c-48f7-8451-9bf313eab21c")
+		(uuid "78dec8af-a211-4afb-85a8-bb592c4013c6")
 	)
 	(pad "273" connect roundrect
 		(at 47.575 31.15)
@@ -3930,7 +3931,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "99eef60d-8714-4019-8b2f-15b8f4847810")
+		(uuid "a72103a6-656f-40cf-84de-33802f5d0648")
 	)
 	(pad "274" connect roundrect
 		(at 48.425 31.15)
@@ -3940,7 +3941,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "63da81f8-48c8-489d-bf0a-3a8702afb218")
+		(uuid "801b8fab-ec64-4558-bb6f-7a4f2b6af287")
 	)
 	(pad "275" connect roundrect
 		(at 49.275 31.15)
@@ -3950,7 +3951,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "dacdf041-a2ce-44b0-adf7-a85ab8872bd4")
+		(uuid "6303da91-cd53-4a75-a10f-85710690a524")
 	)
 	(pad "276" connect roundrect
 		(at 50.125 31.15)
@@ -3960,7 +3961,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "b0b39a41-7999-4b8f-8936-86444abe271c")
+		(uuid "7b6dbdc0-bf5f-47c8-aa49-eedfa349b2dd")
 	)
 	(pad "277" connect roundrect
 		(at 50.975 31.15)
@@ -3970,7 +3971,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "bfb071b2-7bea-4a72-b650-c501ce54b9fd")
+		(uuid "4545c7ac-6c3d-4cb1-a899-0d65dd50e949")
 	)
 	(pad "278" connect roundrect
 		(at 51.825 31.15)
@@ -3980,7 +3981,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "dd5b7beb-35c7-477c-8d9b-29714e5f9b75")
+		(uuid "0c5c7d64-13b2-49b0-8b4c-e2c970844475")
 	)
 	(pad "279" connect roundrect
 		(at 52.675 31.15)
@@ -3990,7 +3991,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "52cfb516-0d50-4987-85f7-ed55b00a863d")
+		(uuid "e4a7dbfc-42a5-492c-b7a5-896ff310b4d1")
 	)
 	(pad "280" connect roundrect
 		(at 53.525 31.15)
@@ -4000,7 +4001,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "99a2691c-1ac4-4f19-93f8-0b7981502bcf")
+		(uuid "ef8cd96c-1a27-43a1-a0c0-58e764e2d143")
 	)
 	(pad "281" connect roundrect
 		(at 54.375 31.15)
@@ -4010,7 +4011,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "9d3c1223-8919-4103-95a1-ee7fa94f6b04")
+		(uuid "964a7c9a-2515-4c7e-9821-5095a5034a16")
 	)
 	(pad "282" connect roundrect
 		(at 55.225 31.15)
@@ -4020,7 +4021,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "c43850e4-2c7d-487f-acdf-c7d0746d1fa5")
+		(uuid "2d229e42-cbea-499c-87f8-ff5802ff2083")
 	)
 	(pad "283" connect roundrect
 		(at 56.075 31.15)
@@ -4030,7 +4031,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "2ec512dc-6933-4df3-bd93-bc7eebb2ce73")
+		(uuid "4e44f29b-f206-4213-97c1-b1aa5c416a4a")
 	)
 	(pad "284" connect roundrect
 		(at 56.925 31.15)
@@ -4040,7 +4041,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "606df767-49b2-457c-a14b-7fdc96323352")
+		(uuid "a7383ff2-9f17-4bc0-879f-e6c89e51eed4")
 	)
 	(pad "285" connect roundrect
 		(at 57.775 31.15)
@@ -4050,7 +4051,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "ec65049b-9cde-470a-8de6-c2a323457919")
+		(uuid "9abb60ab-691e-42b3-aa2e-20d6b0e84ed8")
 	)
 	(pad "286" connect roundrect
 		(at 58.625 31.15)
@@ -4060,7 +4061,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "550a3b20-8697-4719-a47d-47f5eabaf61e")
+		(uuid "a4a081c2-d7da-4e11-866c-0a207ab3f2ce")
 	)
 	(pad "287" connect roundrect
 		(at 59.475 31.15)
@@ -4070,7 +4071,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "eb85c447-d2ba-402e-b2df-8863f6b0dcdc")
+		(uuid "1ec282cd-d588-495a-9b08-09d0c02e5782")
 	)
 	(pad "288" connect roundrect
 		(at 60.325 31.15)
@@ -4080,7 +4081,7 @@
 		(chamfer_ratio 0.2)
 		(chamfer bottom_left bottom_right)
 		(thermal_bridge_angle 45)
-		(uuid "9e77fcc3-0140-449a-83bd-aea9992be92e")
+		(uuid "974247b0-25be-4d58-af67-eec6fce3fb72")
 	)
 	(embedded_fonts no)
 )

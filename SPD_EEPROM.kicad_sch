@@ -1372,7 +1372,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02ea8c5a-abaf-4765-8834-1a4a473f659f")
-		(property "Reference" "L11"
+		(property "Reference" "L19"
 			(at 86.36 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1436,7 +1436,7 @@
 		(instances
 			(project "DDR4_DIMM"
 				(path "/2162f80d-5bbc-406a-8824-9611d78b7103/cb7293af-232b-4c7f-85bc-3b7b1ae107bd"
-					(reference "L11")
+					(reference "L19")
 					(unit 1)
 				)
 			)
@@ -1454,7 +1454,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "404003ca-693d-4840-bc87-67a27cab84e7")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR0180"
 			(at 116.84 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -1514,7 +1514,7 @@
 		(instances
 			(project "DDR4_DIMM"
 				(path "/2162f80d-5bbc-406a-8824-9611d78b7103/cb7293af-232b-4c7f-85bc-3b7b1ae107bd"
-					(reference "#PWR036")
+					(reference "#PWR0180")
 					(unit 1)
 				)
 			)
@@ -1531,7 +1531,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "51b174d8-b7a1-4e15-b62a-18927cec89c3")
-		(property "Reference" "C44"
+		(property "Reference" "C92"
 			(at 119.38 100.3299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1552,7 +1552,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "DDR4_DRAM_DIMM:R_0402_1005"
 			(at 113.03 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -1594,7 +1594,7 @@
 		(instances
 			(project "DDR4_DIMM"
 				(path "/2162f80d-5bbc-406a-8824-9611d78b7103/cb7293af-232b-4c7f-85bc-3b7b1ae107bd"
-					(reference "C44")
+					(reference "C92")
 					(unit 1)
 				)
 			)
@@ -1611,7 +1611,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "98bea1f4-2f10-40d5-a66d-6bd033b4043c")
-		(property "Reference" "C43"
+		(property "Reference" "C91"
 			(at 107.95 100.3299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1632,7 +1632,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "DDR4_DRAM_DIMM:R_0402_1005"
 			(at 101.6 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -1674,7 +1674,7 @@
 		(instances
 			(project "DDR4_DIMM"
 				(path "/2162f80d-5bbc-406a-8824-9611d78b7103/cb7293af-232b-4c7f-85bc-3b7b1ae107bd"
-					(reference "C43")
+					(reference "C91")
 					(unit 1)
 				)
 			)
@@ -1691,7 +1691,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a19264c7-3882-4398-9337-d551dfc083d5")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR0178"
 			(at 71.12 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -1751,7 +1751,7 @@
 		(instances
 			(project "DDR4_DIMM"
 				(path "/2162f80d-5bbc-406a-8824-9611d78b7103/cb7293af-232b-4c7f-85bc-3b7b1ae107bd"
-					(reference "#PWR034")
+					(reference "#PWR0178")
 					(unit 1)
 				)
 			)
@@ -1769,7 +1769,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad13772f-633d-4c10-8463-bfe0713e699f")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR0182"
 			(at 171.45 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -1829,7 +1829,7 @@
 		(instances
 			(project "DDR4_DIMM"
 				(path "/2162f80d-5bbc-406a-8824-9611d78b7103/cb7293af-232b-4c7f-85bc-3b7b1ae107bd"
-					(reference "#PWR038")
+					(reference "#PWR0182")
 					(unit 1)
 				)
 			)
@@ -1846,7 +1846,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b453e97a-b505-4452-be7e-0f8a72c7322e")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR0181"
 			(at 124.46 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -1906,7 +1906,7 @@
 		(instances
 			(project "DDR4_DIMM"
 				(path "/2162f80d-5bbc-406a-8824-9611d78b7103/cb7293af-232b-4c7f-85bc-3b7b1ae107bd"
-					(reference "#PWR037")
+					(reference "#PWR0181")
 					(unit 1)
 				)
 			)
@@ -1924,7 +1924,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9929205-dfca-4b97-849b-05746434f5eb")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR0179"
 			(at 105.41 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -1984,7 +1984,7 @@
 		(instances
 			(project "DDR4_DIMM"
 				(path "/2162f80d-5bbc-406a-8824-9611d78b7103/cb7293af-232b-4c7f-85bc-3b7b1ae107bd"
-					(reference "#PWR035")
+					(reference "#PWR0179")
 					(unit 1)
 				)
 			)
@@ -2002,7 +2002,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dbd8d58b-f873-4e8c-ac23-9aae43e4bbf7")
-		(property "Reference" "U7"
+		(property "Reference" "U11"
 			(at 189.23 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2082,7 +2082,7 @@
 		(instances
 			(project "DDR4_DIMM"
 				(path "/2162f80d-5bbc-406a-8824-9611d78b7103/cb7293af-232b-4c7f-85bc-3b7b1ae107bd"
-					(reference "U7")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -2099,7 +2099,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ed84d7e1-bfba-44ff-88e5-66d4fa590d7b")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR0183"
 			(at 209.55 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -2159,7 +2159,7 @@
 		(instances
 			(project "DDR4_DIMM"
 				(path "/2162f80d-5bbc-406a-8824-9611d78b7103/cb7293af-232b-4c7f-85bc-3b7b1ae107bd"
-					(reference "#PWR039")
+					(reference "#PWR0183")
 					(unit 1)
 				)
 			)

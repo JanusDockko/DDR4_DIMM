@@ -1,33 +1,120 @@
-(module "RCLAMP01211ZCFT" (layer F.Cu)
-  (descr "RCLAMP01211ZCFT-2")
-  (tags "TVS Diode (Bi-directional)")
-  (attr smd)
-  (fp_text reference D** (at 0.000 0.001) (layer F.SilkS)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text user %R (at 0.000 0.001) (layer F.Fab)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text value "RCLAMP01211ZCFT" (at 0.000 0.001) (layer F.SilkS) hide
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_line (start -0.15 0.3) (end 0.15 0.3) (layer F.Fab) (width 0.1))
-  (fp_line (start 0.15 0.3) (end 0.15 -0.3) (layer F.Fab) (width 0.1))
-  (fp_line (start 0.15 -0.3) (end -0.15 -0.3) (layer F.Fab) (width 0.1))
-  (fp_line (start -0.15 -0.3) (end -0.15 0.3) (layer F.Fab) (width 0.1))
-  (fp_line (start -1.15 1.338) (end 1.15 1.338) (layer F.CrtYd) (width 0.1))
-  (fp_line (start 1.15 1.338) (end 1.15 -1.337) (layer F.CrtYd) (width 0.1))
-  (fp_line (start 1.15 -1.337) (end -1.15 -1.337) (layer F.CrtYd) (width 0.1))
-  (fp_line (start -1.15 -1.337) (end -1.15 1.338) (layer F.CrtYd) (width 0.1))
-  (fp_line (start 0 0.8) (end 0 0.8) (layer F.SilkS) (width 0.1))
-  (fp_line (start 0 0.9) (end 0 0.9) (layer F.SilkS) (width 0.1))
-  (fp_arc (start 0 0.85) (end 0.000 0.8) (angle -180) (layer F.SilkS) (width 0.1))
-  (fp_arc (start 0 0.85) (end 0.000 0.9) (angle -180) (layer F.SilkS) (width 0.1))
-  (pad 1 smd rect (at 0.000 0.213 90) (size 0.250 0.270) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 0.000 -0.213 90) (size 0.250 0.270) (layers F.Cu F.Paste F.Mask))
-  (model RCLAMP01211ZCFT.stp
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "RCLAMP01211ZCFT"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "RCLAMP01211ZCFT-2")
+	(tags "TVS Diode (Bi-directional)")
+	(property "Reference" "D**"
+		(at 0 -0.395 0)
+		(layer "F.SilkS")
+		(uuid "4a978746-ac89-4c7a-b1eb-340c57775d9c")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "RCLAMP01211ZCFT"
+		(at 0 0.001 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ff8f9219-0ae8-430d-a396-ca3b7fc93b23")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b2d7575-ff06-4d90-b160-c999b2a03f8f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "44864adf-97ea-4dfa-a62f-ecff7c19f956")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.3 -0.125)
+		(end -0.3 0.175)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "15f8bec5-6e46-43dc-9dfd-13833b4eef0b")
+	)
+	(fp_line
+		(start -0.3 0.175)
+		(end 0.3 0.175)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e91ab960-23f8-4cfc-ad00-dc82f46ba3ce")
+	)
+	(fp_line
+		(start 0.3 -0.125)
+		(end -0.3 -0.125)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4e5872e1-31e2-410b-b41a-57308ca2564e")
+	)
+	(fp_line
+		(start 0.3 0.175)
+		(end 0.3 -0.125)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c83c71fe-9d38-4046-9058-847571ac6a58")
+	)
+	(pad "1" smd rect
+		(at -0.213 0.025)
+		(size 0.25 0.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "469a6260-6ed0-4c00-8549-8ccaf29ed079")
+	)
+	(pad "2" smd rect
+		(at 0.213 0.025)
+		(size 0.25 0.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f0edfd9e-c13c-4fd0-92ec-ec5e5cc80294")
+	)
+	(embedded_fonts no)
+	(model "RCLAMP01211ZCFT.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
