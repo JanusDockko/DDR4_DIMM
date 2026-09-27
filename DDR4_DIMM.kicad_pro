@@ -61,7 +61,7 @@
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
           "min_clearance": 0.5,
-          "min_island_area": 9.99999999996,
+          "min_island_area": 9.9999993548,
           "min_thickness": 0.25,
           "pad_connection": 1,
           "remove_islands": 0,
@@ -533,11 +533,11 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Address",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 0, 251)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
-        "tuning_profile": "",
+        "tuning_profile": "DQ",
         "via_diameter": 0.6,
         "via_drill": 0.3
       },
@@ -548,176 +548,144 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Clock",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 13,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3
-      },
-      {
-        "clearance": 0.25,
-        "diff_pair_gap": 0.2,
-        "diff_pair_width": 0.25,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "DQS_DRAM1",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 10,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3
-      },
-      {
-        "clearance": 0.25,
-        "diff_pair_gap": 0.2,
-        "diff_pair_width": 0.25,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "DQS_DRAM2",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(0, 255, 245)",
         "priority": 11,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3
-      },
-      {
-        "clearance": 0.25,
-        "diff_pair_gap": 0.2,
-        "diff_pair_width": 0.25,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "DQS_DRAM3",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 12,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "tuning_profile": "",
+        "tuning_profile": "DQS",
         "via_diameter": 0.6,
         "via_drill": 0.3
       },
       {
         "clearance": 0.2,
-        "diff_pair_gap": 0.2,
-        "diff_pair_width": 0.2,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "DQ_DRAM1",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "name": "DQS",
+        "pcb_color": "rgb(255, 0, 217)",
+        "priority": 10,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": "DQS",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2,
+        "diff_pair_gap": 3.3834,
+        "diff_pair_width": 1.1278,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "DRAM1_DQ",
+        "pcb_color": "rgb(53, 255, 0)",
         "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "tuning_profile": "",
+        "tuning_profile": "DQ",
         "via_diameter": 0.6,
         "via_drill": 0.3
       },
       {
         "clearance": 0.2,
-        "diff_pair_gap": 0.2,
-        "diff_pair_width": 0.2,
+        "diff_pair_gap": 3.3834,
+        "diff_pair_width": 1.1278,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "DQ_DRAM2",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "name": "DRAM2_DQ",
+        "pcb_color": "rgb(53, 255, 0)",
         "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "tuning_profile": "",
+        "tuning_profile": "DQ",
         "via_diameter": 0.6,
         "via_drill": 0.3
       },
       {
         "clearance": 0.2,
-        "diff_pair_gap": 0.2,
-        "diff_pair_width": 0.2,
+        "diff_pair_gap": 3.3834,
+        "diff_pair_width": 1.1278,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "DQ_DRAM3",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "name": "DRAM3_DQ",
+        "pcb_color": "rgb(53, 255, 0)",
         "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "tuning_profile": "",
+        "tuning_profile": "DQ",
         "via_diameter": 0.6,
         "via_drill": 0.3
       },
       {
         "clearance": 0.2,
-        "diff_pair_gap": 0.2,
-        "diff_pair_width": 0.2,
+        "diff_pair_gap": 3.3834,
+        "diff_pair_width": 1.1278,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "DQ_DRAM4",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "name": "DRAM4_DQ",
+        "pcb_color": "rgb(53, 255, 0)",
         "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "tuning_profile": "",
+        "tuning_profile": "DQ",
         "via_diameter": 0.6,
         "via_drill": 0.3
       },
       {
         "clearance": 0.2,
-        "diff_pair_gap": 0.2,
-        "diff_pair_width": 0.2,
+        "diff_pair_gap": 3.3834,
+        "diff_pair_width": 1.1278,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "DQ_DRAM5",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "name": "DRAM5_DQ",
+        "pcb_color": "rgb(53, 255, 0)",
         "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "tuning_profile": "",
+        "tuning_profile": "DQ",
         "via_diameter": 0.6,
         "via_drill": 0.3
       },
       {
         "clearance": 0.2,
-        "diff_pair_gap": 0.2,
-        "diff_pair_width": 0.2,
+        "diff_pair_gap": 3.3834,
+        "diff_pair_width": 1.1278,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "DQ_DRAM6",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "name": "DRAM6_DQ",
+        "pcb_color": "rgb(53, 255, 0)",
         "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "tuning_profile": "",
+        "tuning_profile": "DQ",
         "via_diameter": 0.6,
         "via_drill": 0.3
       },
       {
         "clearance": 0.2,
-        "diff_pair_gap": 0.2,
-        "diff_pair_width": 0.2,
+        "diff_pair_gap": 3.3834,
+        "diff_pair_width": 1.1278,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "DQ_DRAM7",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "name": "DRAM7_DQ",
+        "pcb_color": "rgb(53, 255, 0)",
         "priority": 8,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "tuning_profile": "",
+        "tuning_profile": "DQ",
         "via_diameter": 0.6,
         "via_drill": 0.3
       },
       {
         "clearance": 0.2,
-        "diff_pair_gap": 0.2,
-        "diff_pair_width": 0.2,
+        "diff_pair_gap": 3.3834,
+        "diff_pair_width": 1.1278,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "DQ_DRAM8",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "name": "DRAM8_DQ",
+        "pcb_color": "rgb(53, 255, 0)",
         "priority": 9,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "tuning_profile": "",
+        "tuning_profile": "DQ",
         "via_diameter": 0.6,
         "via_drill": 0.3
       },
@@ -742,7 +710,696 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "DRAM1_DQ",
+        "pattern": "DQ0"
+      },
+      {
+        "netclass": "DRAM1_DQ",
+        "pattern": "DQ1"
+      },
+      {
+        "netclass": "DRAM1_DQ",
+        "pattern": "DQ2"
+      },
+      {
+        "netclass": "DRAM1_DQ",
+        "pattern": "DQ3"
+      },
+      {
+        "netclass": "DRAM1_DQ",
+        "pattern": "DQ4"
+      },
+      {
+        "netclass": "DRAM1_DQ",
+        "pattern": "DQ5"
+      },
+      {
+        "netclass": "DRAM1_DQ",
+        "pattern": "DQ6"
+      },
+      {
+        "netclass": "DRAM1_DQ",
+        "pattern": "DQ7"
+      },
+      {
+        "netclass": "DRAM1_DQ",
+        "pattern": "Net-(U2C-DQ0)"
+      },
+      {
+        "netclass": "DRAM1_DQ",
+        "pattern": "Net-(U2C-DQ1)"
+      },
+      {
+        "netclass": "DRAM1_DQ",
+        "pattern": "Net-(U2C-DQ2)"
+      },
+      {
+        "netclass": "DRAM1_DQ",
+        "pattern": "Net-(U2C-DQ3)"
+      },
+      {
+        "netclass": "DRAM1_DQ",
+        "pattern": "Net-(U2C-DQ4)"
+      },
+      {
+        "netclass": "DRAM1_DQ",
+        "pattern": "Net-(U2C-DQ5)"
+      },
+      {
+        "netclass": "DRAM1_DQ",
+        "pattern": "Net-(U2C-DQ6)"
+      },
+      {
+        "netclass": "DRAM1_DQ",
+        "pattern": "Net-(U2C-DQ7)"
+      },
+      {
+        "netclass": "DRAM2_DQ",
+        "pattern": "DQ8"
+      },
+      {
+        "netclass": "DRAM2_DQ",
+        "pattern": "DQ9"
+      },
+      {
+        "netclass": "DRAM2_DQ",
+        "pattern": "DQ10"
+      },
+      {
+        "netclass": "DRAM2_DQ",
+        "pattern": "DQ11"
+      },
+      {
+        "netclass": "DRAM2_DQ",
+        "pattern": "DQ12"
+      },
+      {
+        "netclass": "DRAM2_DQ",
+        "pattern": "DQ13"
+      },
+      {
+        "netclass": "DRAM2_DQ",
+        "pattern": "DQ14"
+      },
+      {
+        "netclass": "DRAM2_DQ",
+        "pattern": "DQ15"
+      },
+      {
+        "netclass": "DRAM2_DQ",
+        "pattern": "Net-(U3C-DQ0)"
+      },
+      {
+        "netclass": "DRAM2_DQ",
+        "pattern": "Net-(U3C-DQ1)"
+      },
+      {
+        "netclass": "DRAM2_DQ",
+        "pattern": "Net-(U3C-DQ2)"
+      },
+      {
+        "netclass": "DRAM2_DQ",
+        "pattern": "Net-(U3C-DQ3)"
+      },
+      {
+        "netclass": "DRAM2_DQ",
+        "pattern": "Net-(U3C-DQ4)"
+      },
+      {
+        "netclass": "DRAM2_DQ",
+        "pattern": "Net-(U3C-DQ5)"
+      },
+      {
+        "netclass": "DRAM2_DQ",
+        "pattern": "Net-(U3C-DQ6)"
+      },
+      {
+        "netclass": "DRAM2_DQ",
+        "pattern": "Net-(U3C-DQ7)"
+      },
+      {
+        "netclass": "DRAM3_DQ",
+        "pattern": "DQ16"
+      },
+      {
+        "netclass": "DRAM3_DQ",
+        "pattern": "DQ17"
+      },
+      {
+        "netclass": "DRAM3_DQ",
+        "pattern": "DQ18"
+      },
+      {
+        "netclass": "DRAM3_DQ",
+        "pattern": "DQ19"
+      },
+      {
+        "netclass": "DRAM3_DQ",
+        "pattern": "DQ20"
+      },
+      {
+        "netclass": "DRAM3_DQ",
+        "pattern": "DQ21"
+      },
+      {
+        "netclass": "DRAM3_DQ",
+        "pattern": "DQ22"
+      },
+      {
+        "netclass": "DRAM3_DQ",
+        "pattern": "DQ23"
+      },
+      {
+        "netclass": "DRAM3_DQ",
+        "pattern": "Net-(U4C-DQ0)"
+      },
+      {
+        "netclass": "DRAM3_DQ",
+        "pattern": "Net-(U4C-DQ1)"
+      },
+      {
+        "netclass": "DRAM3_DQ",
+        "pattern": "Net-(U4C-DQ2)"
+      },
+      {
+        "netclass": "DRAM3_DQ",
+        "pattern": "Net-(U4C-DQ3)"
+      },
+      {
+        "netclass": "DRAM3_DQ",
+        "pattern": "Net-(U4C-DQ4)"
+      },
+      {
+        "netclass": "DRAM3_DQ",
+        "pattern": "Net-(U4C-DQ5)"
+      },
+      {
+        "netclass": "DRAM3_DQ",
+        "pattern": "Net-(U4C-DQ6)"
+      },
+      {
+        "netclass": "DRAM3_DQ",
+        "pattern": "Net-(U4C-DQ7)"
+      },
+      {
+        "netclass": "DRAM4_DQ",
+        "pattern": "DQ24"
+      },
+      {
+        "netclass": "DRAM4_DQ",
+        "pattern": "DQ25"
+      },
+      {
+        "netclass": "DRAM4_DQ",
+        "pattern": "DQ26"
+      },
+      {
+        "netclass": "DRAM4_DQ",
+        "pattern": "DQ27"
+      },
+      {
+        "netclass": "DRAM6_DQ",
+        "pattern": "DQ28"
+      },
+      {
+        "netclass": "DRAM4_DQ",
+        "pattern": "DQ29"
+      },
+      {
+        "netclass": "DRAM4_DQ",
+        "pattern": "DQ30"
+      },
+      {
+        "netclass": "DRAM4_DQ",
+        "pattern": "DQ31"
+      },
+      {
+        "netclass": "DRAM4_DQ",
+        "pattern": "Net-(U5C-DQ0)"
+      },
+      {
+        "netclass": "DRAM4_DQ",
+        "pattern": "Net-(U5C-DQ1)"
+      },
+      {
+        "netclass": "DRAM4_DQ",
+        "pattern": "Net-(U5C-DQ2)"
+      },
+      {
+        "netclass": "DRAM4_DQ",
+        "pattern": "Net-(U5C-DQ3)"
+      },
+      {
+        "netclass": "DRAM4_DQ",
+        "pattern": "Net-(U5C-DQ4)"
+      },
+      {
+        "netclass": "DRAM4_DQ",
+        "pattern": "Net-(U5C-DQ5)"
+      },
+      {
+        "netclass": "DRAM4_DQ",
+        "pattern": "Net-(U5C-DQ6)"
+      },
+      {
+        "netclass": "DRAM4_DQ",
+        "pattern": "Net-(U5C-DQ7)"
+      },
+      {
+        "netclass": "DRAM5_DQ",
+        "pattern": "DQ32"
+      },
+      {
+        "netclass": "DRAM5_DQ",
+        "pattern": "DQ33"
+      },
+      {
+        "netclass": "DRAM5_DQ",
+        "pattern": "DQ34"
+      },
+      {
+        "netclass": "DRAM5_DQ",
+        "pattern": "DQ35"
+      },
+      {
+        "netclass": "DRAM5_DQ",
+        "pattern": "DQ36"
+      },
+      {
+        "netclass": "DRAM5_DQ",
+        "pattern": "DQ37"
+      },
+      {
+        "netclass": "DRAM5_DQ",
+        "pattern": "DQ38"
+      },
+      {
+        "netclass": "DRAM5_DQ",
+        "pattern": "DQ39"
+      },
+      {
+        "netclass": "DRAM5_DQ",
+        "pattern": "Net-(U6C-DQ0)"
+      },
+      {
+        "netclass": "DRAM5_DQ",
+        "pattern": "Net-(U6C-DQ1)"
+      },
+      {
+        "netclass": "DRAM5_DQ",
+        "pattern": "Net-(U6C-DQ2)"
+      },
+      {
+        "netclass": "DRAM5_DQ",
+        "pattern": "Net-(U6C-DQ3)"
+      },
+      {
+        "netclass": "DRAM5_DQ",
+        "pattern": "Net-(U6C-DQ4)"
+      },
+      {
+        "netclass": "DRAM5_DQ",
+        "pattern": "Net-(U6C-DQ5)"
+      },
+      {
+        "netclass": "DRAM5_DQ",
+        "pattern": "Net-(U6C-DQ6)"
+      },
+      {
+        "netclass": "DRAM5_DQ",
+        "pattern": "Net-(U6C-DQ7)"
+      },
+      {
+        "netclass": "DRAM6_DQ",
+        "pattern": "DQ40"
+      },
+      {
+        "netclass": "DRAM6_DQ",
+        "pattern": "DQ41"
+      },
+      {
+        "netclass": "DRAM6_DQ",
+        "pattern": "DQ42"
+      },
+      {
+        "netclass": "DRAM6_DQ",
+        "pattern": "DQ43"
+      },
+      {
+        "netclass": "DRAM6_DQ",
+        "pattern": "DQ44"
+      },
+      {
+        "netclass": "DRAM6_DQ",
+        "pattern": "DQ45"
+      },
+      {
+        "netclass": "DRAM6_DQ",
+        "pattern": "DQ46"
+      },
+      {
+        "netclass": "DRAM6_DQ",
+        "pattern": "DQ47"
+      },
+      {
+        "netclass": "DRAM6_DQ",
+        "pattern": "Net-(U7C-DQ0)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U7C-DQ1)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U7C-DQ2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U7C-DQ3)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U7C-DQ4)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U7C-DQ5)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U7C-DQ6)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U7C-DQ7)"
+      },
+      {
+        "netclass": "DRAM7_DQ",
+        "pattern": "DQ48"
+      },
+      {
+        "netclass": "DRAM7_DQ",
+        "pattern": "DQ49"
+      },
+      {
+        "netclass": "DRAM7_DQ",
+        "pattern": "DQ50"
+      },
+      {
+        "netclass": "DRAM7_DQ",
+        "pattern": "DQ51"
+      },
+      {
+        "netclass": "DRAM7_DQ",
+        "pattern": "DQ52"
+      },
+      {
+        "netclass": "DRAM7_DQ",
+        "pattern": "DQ53"
+      },
+      {
+        "netclass": "DRAM7_DQ",
+        "pattern": "DQ54"
+      },
+      {
+        "netclass": "DRAM7_DQ",
+        "pattern": "DQ55"
+      },
+      {
+        "netclass": "DRAM7_DQ",
+        "pattern": "Net-(U8C-DQ0)"
+      },
+      {
+        "netclass": "DRAM7_DQ",
+        "pattern": "Net-(U8C-DQ1)"
+      },
+      {
+        "netclass": "DRAM7_DQ",
+        "pattern": "Net-(U8C-DQ2)"
+      },
+      {
+        "netclass": "DRAM7_DQ",
+        "pattern": "Net-(U8C-DQ3)"
+      },
+      {
+        "netclass": "DRAM7_DQ",
+        "pattern": "Net-(U8C-DQ4)"
+      },
+      {
+        "netclass": "DRAM7_DQ",
+        "pattern": "Net-(U8C-DQ5)"
+      },
+      {
+        "netclass": "DRAM7_DQ",
+        "pattern": "Net-(U8C-DQ6)"
+      },
+      {
+        "netclass": "DRAM7_DQ",
+        "pattern": "Net-(U8C-DQ7)"
+      },
+      {
+        "netclass": "DRAM8_DQ",
+        "pattern": "DQ56"
+      },
+      {
+        "netclass": "DRAM8_DQ",
+        "pattern": "DQ57"
+      },
+      {
+        "netclass": "DRAM8_DQ",
+        "pattern": "DQ58"
+      },
+      {
+        "netclass": "DRAM8_DQ",
+        "pattern": "DQ59"
+      },
+      {
+        "netclass": "DRAM8_DQ",
+        "pattern": "DQ60"
+      },
+      {
+        "netclass": "DRAM8_DQ",
+        "pattern": "DQ61"
+      },
+      {
+        "netclass": "DRAM8_DQ",
+        "pattern": "DQ62"
+      },
+      {
+        "netclass": "DRAM8_DQ",
+        "pattern": "DQ63"
+      },
+      {
+        "netclass": "DRAM8_DQ",
+        "pattern": "Net-(U9C-DQ0)"
+      },
+      {
+        "netclass": "DRAM8_DQ",
+        "pattern": "Net-(U9C-DQ1)"
+      },
+      {
+        "netclass": "DRAM8_DQ",
+        "pattern": "Net-(U9C-DQ2)"
+      },
+      {
+        "netclass": "DRAM8_DQ",
+        "pattern": "Net-(U9C-DQ3)"
+      },
+      {
+        "netclass": "DRAM8_DQ",
+        "pattern": "Net-(U9C-DQ4)"
+      },
+      {
+        "netclass": "DRAM8_DQ",
+        "pattern": "Net-(U9C-DQ5)"
+      },
+      {
+        "netclass": "DRAM8_DQ",
+        "pattern": "Net-(U9C-DQ6)"
+      },
+      {
+        "netclass": "DRAM8_DQ",
+        "pattern": "Net-(U9C-DQ7)"
+      },
+      {
+        "netclass": "DQS",
+        "pattern": "DQS0_P"
+      },
+      {
+        "netclass": "DQS",
+        "pattern": "DQS0_N"
+      },
+      {
+        "netclass": "DQS",
+        "pattern": "DQS1_P"
+      },
+      {
+        "netclass": "DQS",
+        "pattern": "DQS1_N"
+      },
+      {
+        "netclass": "DQS",
+        "pattern": "DQS2_P"
+      },
+      {
+        "netclass": "DQS",
+        "pattern": "DQS2_N"
+      },
+      {
+        "netclass": "DQS",
+        "pattern": "DQS3_P"
+      },
+      {
+        "netclass": "DQS",
+        "pattern": "DQS3_N"
+      },
+      {
+        "netclass": "DQS",
+        "pattern": "DQS4_P"
+      },
+      {
+        "netclass": "DQS",
+        "pattern": "DQS4_N"
+      },
+      {
+        "netclass": "DQS",
+        "pattern": "DQS5_P"
+      },
+      {
+        "netclass": "DQS",
+        "pattern": "DQS5_N"
+      },
+      {
+        "netclass": "DQS",
+        "pattern": "DQS6_P"
+      },
+      {
+        "netclass": "DQS",
+        "pattern": "DQS6_N"
+      },
+      {
+        "netclass": "DQS",
+        "pattern": "DQS7_P"
+      },
+      {
+        "netclass": "DQS",
+        "pattern": "DQS7_N"
+      },
+      {
+        "netclass": "Address",
+        "pattern": "ADDR_A0"
+      },
+      {
+        "netclass": "Address",
+        "pattern": "ADDR_A1"
+      },
+      {
+        "netclass": "Address",
+        "pattern": "ADDR_A2"
+      },
+      {
+        "netclass": "Address",
+        "pattern": "ADDR_A3"
+      },
+      {
+        "netclass": "Address",
+        "pattern": "ADDR_A4"
+      },
+      {
+        "netclass": "Address",
+        "pattern": "ADDR_A5"
+      },
+      {
+        "netclass": "Address",
+        "pattern": "ADDR_A6"
+      },
+      {
+        "netclass": "Address",
+        "pattern": "ADDR_A7"
+      },
+      {
+        "netclass": "Address",
+        "pattern": "ADDR_A8"
+      },
+      {
+        "netclass": "Address",
+        "pattern": "ADDR_A9"
+      },
+      {
+        "netclass": "Address",
+        "pattern": "ADDR_A10"
+      },
+      {
+        "netclass": "Address",
+        "pattern": "ADDR_A11"
+      },
+      {
+        "netclass": "Address",
+        "pattern": "ADDR_A12"
+      },
+      {
+        "netclass": "Address",
+        "pattern": "ADDR_A13"
+      },
+      {
+        "netclass": "Address",
+        "pattern": "ADDR_A14"
+      },
+      {
+        "netclass": "Address",
+        "pattern": "ADDR_A15"
+      },
+      {
+        "netclass": "Address",
+        "pattern": "ADDR_A16"
+      },
+      {
+        "netclass": "Address",
+        "pattern": "ADDR_BG0"
+      },
+      {
+        "netclass": "Address",
+        "pattern": "ADDR_BG1"
+      },
+      {
+        "netclass": "Address",
+        "pattern": "ADDR_BA0"
+      },
+      {
+        "netclass": "Address",
+        "pattern": "ADDR_BA1"
+      },
+      {
+        "netclass": "Address",
+        "pattern": "ADDR_CS0"
+      },
+      {
+        "netclass": "Address",
+        "pattern": "DDR4_RESET"
+      },
+      {
+        "netclass": "Address",
+        "pattern": "DDR4_CKE0"
+      },
+      {
+        "netclass": "Address",
+        "pattern": "DDR4_ODT"
+      },
+      {
+        "netclass": "Address",
+        "pattern": "DDR4_ALERT"
+      },
+      {
+        "netclass": "Address",
+        "pattern": "ACT_n"
+      },
+      {
+        "netclass": "Address",
+        "pattern": "DDR4_PRITY"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -982,7 +1639,7 @@
         "uuid": "2162f80d-5bbc-406a-8824-9611d78b7103"
       }
     ],
-    "used_designators": "L1-19,D1,#PWR1-183,C1-92,U1-11,CR1,R1-77",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -1016,6 +1673,43 @@
     "meta": {
       "version": 0
     },
-    "tuning_profiles_impedance_geometric": []
+    "tuning_profiles_impedance_geometric": [
+      {
+        "enable_time_domain_tuning": true,
+        "layer_entries": [
+          {
+            "bottom_reference_layer": "In1.Cu",
+            "delay": 6043598,
+            "diff_pair_gap": 0,
+            "signal_layer": "F.Cu",
+            "top_reference_layer": "UNDEFINED",
+            "width": 1127800
+          }
+        ],
+        "profile_name": "DQ",
+        "target_impedance": 50.0,
+        "type": 0,
+        "via_overrides": [],
+        "via_prop_delay": 0
+      },
+      {
+        "enable_time_domain_tuning": true,
+        "layer_entries": [
+          {
+            "bottom_reference_layer": "In4.Cu",
+            "delay": 6908299,
+            "diff_pair_gap": 127000,
+            "signal_layer": "In3.Cu",
+            "top_reference_layer": "In2.Cu",
+            "width": 25400
+          }
+        ],
+        "profile_name": "DQS",
+        "target_impedance": 100.0,
+        "type": 1,
+        "via_overrides": [],
+        "via_prop_delay": 0
+      }
+    ]
   }
 }
